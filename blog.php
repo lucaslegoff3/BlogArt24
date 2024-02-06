@@ -1,3 +1,8 @@
+<?php 
+require_once 'header.php';
+sql_connect();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,9 +19,6 @@
     
 </body>
 
-<?php 
-require_once 'header.php';
-sql_connect();
-?>
+
 
 <?php require_once 'footer.php'; ?>
