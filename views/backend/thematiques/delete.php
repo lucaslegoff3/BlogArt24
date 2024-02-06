@@ -1,6 +1,5 @@
 <?php
 include '../../../header.php';
-$libThem = '';
 
 if(isset($_GET['numThem'])){
     $numThem = $_GET['numThem'];
