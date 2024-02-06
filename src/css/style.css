@@ -5,16 +5,16 @@ body {
 
 @font-face {
     font-family: 'Minal';
-    src: url('Minal.woff2') format('woff2');
+    src: url('Minal.otf') format('otf');
   }
 
   @font-face {
-    font-family: 'Nohemi-Bold.woff2';
+    font-family: 'Nohemi-Bold';
     src: url('Nohemi-Bold.woff2') format('woff2');
   }
 
   @font-face {
-    font-family: 'Nohemi-Light.woff2';
+    font-family: 'Nohemi-Light';
     src: url('Nohemi-Light.woff2') format('woff2');
   }
 
@@ -46,7 +46,7 @@ h4 {
     font-weight: 400px;
 }
 p {
-    font-family: 'Regular';
+    font-family: 'Nohemi-Regular';
     font-weight: 300px;
 }
 
@@ -93,6 +93,7 @@ footer button {
 
 h1 {
     font-size: 36px;
+    text-align: center;
 }
 
 button {
@@ -106,4 +107,15 @@ button {
 
 button:hover {
     background-color: #005684;
+}
+
+
+/* EQUIPE */
+
+.tete_equipe{
+    width: 17em;
+}
+
+.equipeetcause{
+    margin: 5em 20em 5em 20em;
 }
