@@ -42,9 +42,8 @@ sql_connect();
     <div class="commentaires">
     <h2>Commentaires</h2>
     <div id="comments-list"></div>
+    <h3>Utilisateur</h3>
     <form id="comment-form">
-      <h3>Utilisateur</h3>
-      <input type="text" id="name" required>
       <textarea
         name="textarea"
         rows="5"
