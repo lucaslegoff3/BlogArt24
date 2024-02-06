@@ -2,7 +2,7 @@
 include '../../../header.php'; // contains the header and call to config.php
 
 //Load all Membuts
-$Members = sql_select("MEMBRE", "*");
+$Members = sql_select("membre INNER JOIN statut ON membre.numStat = statut.numStat", "*");
 ?>
 
 <!-- Bootstrap default layout to display all Members in foreach -->
@@ -14,8 +14,8 @@ $Members = sql_select("MEMBRE", "*");
                 <thead>
                     <tr>
                         <th>Id</th>
+                        <th>Préom des membres</th>
                         <th>Nom des membres</th>
-                        <th>Prénom des membres</th>
                         <th>Pseudo des membres</th>
                         <th>Mot de passe des membres</th>
                         <th>e-Mail des membres</th>
@@ -38,7 +38,7 @@ $Members = sql_select("MEMBRE", "*");
                             <td><?php echo($Member['dtCreaMemb']); ?></td>
                             <td><?php echo($Member['dtMajMemb']); ?></td>
                             <td><?php echo($Member['accordMemb']); ?></td>
-                            <td><?php echo($Member['numStat']); ?></td>
+                            <td><?php echo($Member['libStat']); ?></td>
                             <td>
                                 <a href="edit.php?numMemb=<?php echo($Member['numMemb']); ?>" class="btn btn-primary">Edit</a>
                                 <a href="delete.php?numMemb=<?php echo($Member['numMemb']); ?>" class="btn btn-danger">Delete</a>

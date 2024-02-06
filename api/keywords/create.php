@@ -2,9 +2,9 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 require_once '../../functions/ctrlSaisies.php';
 
-$libKeyw = ctrlSaisies($_POST['libKeyw']);
+$libMotCle = ctrlSaisies($_POST['libMotCle']);
 
-sql_insert('KEYWORDS', 'libKeyw', $libKeyw);
+sql_insert('MOTCLE', 'libMotCle', '"'. $libMotCle .'"');
 
 
 header('Location: ../../views/backend/keywords/list.php');

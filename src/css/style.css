@@ -1,8 +1,54 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 197, 197);
 }
+
+@font-face {
+    font-family: 'Minal';
+    src: url('../font/Minal.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Bold';
+    src: url('../font/Nohemi-Bold.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Light';
+    src: url('../font/Nohemi-Light.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Medium';
+    src: url('../font/Nohemi-Medium.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Regular';
+    src: url('../font/Nohemi-Regular.woff2') format('woff2');
+  }
+
+h1 {
+    font-family: 'Minal';
+}
+h2 {
+    font-family: 'Nohemi-Medium';
+}
+h3 {
+    font-family: 'Nohemi-Regular';
+}
+h4 {
+    font-family: 'Nohemi-Regular';
+}
+p {
+    font-family: 'Nohemi-Regular';
+}
+
+a {
+    font-family: 'Nohemi-Regular';
+}
+
+
 
 footer {
     background-color: black;
@@ -27,4 +73,59 @@ footer button {
     padding: 8px 16px;
     cursor: pointer;
     font-size: 14px;
+}
+
+h1 {
+    font-family: 'Minal'
+}
+h2 {
+    font-family: 'Nohemi-Medium'
+}
+h3 {
+    font-family: 'Nohemi-Regular'
+}
+h4 {
+    font-family: 'Nohemi-Regular'
+}
+p {
+    font-family: 'Nohemi-Regular'
+}
+.equipe{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('chemin/vers/votre/image.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif; /* Choisissez une police de caractères appropriée */
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005684;
+}
+
+
+/* EQUIPE */
+
+.tete_equipe{
+    width: 17em;
+}
+
+.equipeetcause{
+    margin: 5em 20em 5em 20em;
 }

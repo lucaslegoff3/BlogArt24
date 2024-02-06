@@ -2,9 +2,9 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 require_once '../../functions/ctrlSaisies.php';
 
-$numKeys = ctrlSaisies($_POST['numKeyw']);
+$numMotCle = ctrlSaisies($_POST['numMotCle']);
 
-sql_delete('KEYWORDS', "numKeyw = $numKeyw");
+sql_delete('MOTCLE', "numMotCle = $numMotCle");
 
 header('Location: ../../views/backend/keywords/list.php');
 ?>
