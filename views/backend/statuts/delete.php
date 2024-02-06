@@ -1,6 +1,5 @@
 <?php
 include '../../../header.php';
-$libStat = '';
 
 if(isset($_GET['numStat'])){
     $numStat = $_GET['numStat'];

@@ -14,7 +14,7 @@ $thematiques = sql_select("THEMATIQUE", "*");
                 <thead>
                     <tr>
                         <th>Id</th>
-                        <th>Nom des Thématiques</th>
+                        <th>Nom des thématiques</th>
                         <th>Actions</th>
                     </tr>
                 </thead>

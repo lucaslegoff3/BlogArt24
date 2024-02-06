@@ -58,7 +58,7 @@ include '../../header.php';
                             <td>Thématiques</td>
                             <td>
                                 <a href="/views/backend/thematiques/list.php" class="btn btn-primary">List</a>
-                                <a href="/views/backend/thematiques/create.php" class="btn btn-success disabled">Create</a>
+                                <a href="/views/backend/thematiques/create.php" class="btn btn-success">Create</a>
                                 <a href="/views/backend/thematiques/list.php" class="btn btn-warning">Edit</a>
                                 <a href="/views/backend/thematiques/list.php" class="btn btn-danger">Delete</a>
                             </td>
