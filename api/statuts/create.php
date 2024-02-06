@@ -4,6 +4,6 @@ require_once '../../functions/ctrlSaisies.php';
 
 $libStat = ctrlSaisies($_POST['libStat']);
 
-sql_insert('STATUT', 'libStat', $libStat);
+sql_insert('STATUT', 'libStat', '"'. $libStat .'"');
 
 header('Location: ../../views/backend/statuts/list.php');
