@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CGU</title>
 </head>
 <body>
-        <h1>Mentions légales</h1>
+    <h1>Mentions légales</h1>
     <br>
     Conditions Générales d'Utilisation (CGU) pour LS ART
     <br>
+
 Date d'entrée en vigueur : 2 février 2024
 <br>
 En utilisant ce blog, vous acceptez pleinement et sans réserve les présentes Conditions Générales d'Utilisation (CGU). Si vous n'êtes pas d'accord avec l'une de ces conditions, veuillez ne pas utiliser ce blog.
@@ -72,4 +74,5 @@ Nous croyons en l'importance de favoriser un environnement inclusif et collabora
 
 
 </body>
+
 </html>
