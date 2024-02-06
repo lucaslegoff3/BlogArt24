@@ -61,33 +61,33 @@ require_once '../../config.php';
 <hr>
 <section class="equipe">
     <div>
-        <img src="../../src/images/legoff.webp">
+        <img src="../../src/images/legoff.webp" class="tete_equipe">
         <h4>Lucas Le Goff</h4>
         <h6>Polyvalent</h6>
     </div>
     <div>
-        <img src="../../src/images/duteil.webp">
+        <img src="../../src/images/duteil.webp" class="tete_equipe">
         <h4>Bartholomé Duteil</h4>
         <h6>Gestion de projet</h6>
     </div>
     <div>
-        <img src="../../src/images/pasticier.webp">
+        <img src="../../src/images/pasticier.webp" class="tete_equipe">
         <h4>Lucas Pasticier</h4>
         <h6>Directeur Artistique</h6>
     </div>
     <div>
-        <img src="../../src/images/delgado.webp">
+        <img src="../../src/images/delgado.webp" class="tete_equipe">
         <h4>Adrian Delgado</h4>
         <h6>Directeur Artistique</h6>
     </div>
     <div>
-        <img src="../../src/images/quemere.webp">
+        <img src="../../src/images/quemere.webp" class="tete_equipe">
         <h4>Edgar Quéméré</h4>
         <h6>Chef de projet</h6>
     </div>
 </section>
 <hr>
-<section>
+<section class="equipeetcause">
 <div>
         <h3>L'équipe</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste modi, molestiae ex incidunt aperiam a soluta 
