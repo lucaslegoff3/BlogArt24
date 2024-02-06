@@ -28,3 +28,23 @@ footer button {
     cursor: pointer;
     font-size: 14px;
 }
+
+h1 {
+    font-family: 'Minal'
+}
+h2 {
+    font-family: 'Nohemi'
+    font-weight: 500px
+}
+h3 {
+    font-family: 'Nohemi'
+    font-weight: 400px
+}
+h4 {
+    font-family: 'Nohemi'
+    font-weight: 400px
+}
+p {
+    font-family: 'Nohemi'
+    font-weight: 300px
+}
