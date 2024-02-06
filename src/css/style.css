@@ -30,24 +30,18 @@ body {
 
 h1 {
     font-family: 'Minal';
-    font-weight: 700px;
-    font-size: 48px;
 }
 h2 {
     font-family: 'Nohemi-Medium';
-    font-weight: 500px;
 }
 h3 {
     font-family: 'Nohemi-Regular';
-    font-weight: 400px;
 }
 h4 {
     font-family: 'Nohemi-Regular';
-    font-weight: 400px;
 }
 p {
-    font-family: 'Regular';
-    font-weight: 300px;
+    font-family: 'Nohemi-Regular';
 }
 
 footer {
