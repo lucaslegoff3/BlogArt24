@@ -93,6 +93,7 @@ h4 {
 p {
     font-family: 'Nohemi-Regular'
     font-weight: 300px
+}
 .equipe{
     padding: 20px;
     display: flex;
@@ -109,9 +110,6 @@ p {
     font-family: Arial, sans-serif; /* Choisissez une police de caractères appropriée */
 }
 
-h1 {
-    font-size: 36px;
-}
 
 button {
     background-color: #008CBA;
