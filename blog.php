@@ -6,8 +6,17 @@
     <title>blog</title>
 </head>
 <body>
-    <h1>Festival Accessible aux sourdet malentendant à Bordeaux</h1>
+    <div>
+        <img src="img_article_1.webp">
+        <h1>Festival Accessible aux sourdet malentendant à Bordeaux</h1>
+    </div>
     
-
-
+    
 </body>
+
+<?php 
+require_once 'header.php';
+sql_connect();
+?>
+
+<?php require_once 'footer.php'; ?>
