@@ -69,6 +69,5 @@ En l'absence d'un capital social financier formel, chaque membre de l'équipe co
 <br>
 Nous croyons en l'importance de favoriser un environnement inclusif et collaboratif, où la valeur de chaque contribution individuelle s'exprime dans le succès collectif de notre entreprise.
 
-
 </body>
 </html>
