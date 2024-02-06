@@ -3,10 +3,10 @@ require_once 'header.php';
 sql_connect();
 ?>
 
-<head>
+<div class="header">
     <h1>LA MUSIQUE ACCESSIBLE A TOUS</h1>
     <button>Découvrir</button>
-</head>
+</div>
 <hr>
 <section>
 <div>
