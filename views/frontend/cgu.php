@@ -60,7 +60,7 @@ Nous croyons en l'importance de favoriser un environnement inclusif et collabora
 <br>
 Cependant, si vous souhaitez intégrer une mention sur le capital social dans vos CGU, voici une suggestion :
 <br>
-<br>
+
 Capital Social
 <br>
 La présente plateforme est exploitée par LS Art, une entreprise composée de cinq personnes collaborant dans un esprit d'entraide et de coopération. Conscients des défis financiers auxquels peuvent être confrontées les petites entreprises, notre modèle d'exploitation repose sur une contribution collective en lieu et place d'un capital social monétaire traditionnel.
