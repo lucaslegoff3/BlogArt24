@@ -5,17 +5,27 @@ body {
 
 @font-face {
     font-family: 'Minal';
-    src: url('Minal.otf') format('otf');
+    src: url('../font/Minal.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Bold';
+    src: url('../font/Nohemi-Bold.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Light';
+    src: url('../font/Nohemi-Light.woff2') format('woff2');
   }
 
 @font-face {
     font-family: 'Nohemi-Medium';
-    src: url('Nohemi-Medium.woff2') format('woff2');
+    src: url('../font/Nohemi-Medium.woff2') format('woff2');
   }
 
 @font-face {
     font-family: 'Nohemi-Regular';
-    src: url('Nohemi-Regular.woff2') format('woff2');
+    src: url('../font/Nohemi-Regular.woff2') format('woff2');
   }
 
 h1 {
@@ -30,6 +40,14 @@ h3 {
 h4 {
     font-family: 'Nohemi-Regular';
 }
+p {
+    font-family: 'Nohemi-Regular';
+}
+
+a {
+    font-family: 'Nohemi-Regular';
+}
+
 
 
 footer {
