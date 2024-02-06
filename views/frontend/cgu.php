@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CGU</title>
 </head>
+
 <body>
     <h1>Mentions légales</h1>
     <br>

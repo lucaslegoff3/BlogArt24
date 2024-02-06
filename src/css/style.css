@@ -3,6 +3,47 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Minal';
+    src: url('Minal.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Bold';
+    src: url('Nohemi-Bold.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Light';
+    src: url('Nohemi-Light.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Medium';
+    src: url('Nohemi-Medium.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Nohemi-Regular';
+    src: url('Nohemi-Regular.woff2') format('woff2');
+  }
+
+h1 {
+    font-family: 'Minal';
+}
+h2 {
+    font-family: 'Nohemi-Medium';
+}
+h3 {
+    font-family: 'Nohemi-Regular';
+}
+h4 {
+    font-family: 'Nohemi-Regular';
+}
+p {
+    font-family: 'Nohemi-Regular';
+}
+
 footer {
     background-color: black;
     color: white;
@@ -28,7 +69,26 @@ footer button {
     font-size: 14px;
 }
 
-
+h1 {
+    font-family: 'Minal'
+}
+h2 {
+    font-family: 'Nohemi-Medium'
+}
+h3 {
+    font-family: 'Nohemi-Regular'
+}
+h4 {
+    font-family: 'Nohemi-Regular'
+}
+p {
+    font-family: 'Nohemi-Regular'
+}
+.equipe{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
 
 .header {
     text-align: center;
@@ -40,9 +100,6 @@ footer button {
     font-family: Arial, sans-serif; /* Choisissez une police de caractères appropriée */
 }
 
-h1 {
-    font-size: 36px;
-}
 
 button {
     background-color: #008CBA;
