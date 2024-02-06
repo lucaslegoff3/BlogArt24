@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 197, 197);
 }
 
 footer {
@@ -27,4 +26,33 @@ footer button {
     padding: 8px 16px;
     cursor: pointer;
     font-size: 14px;
+}
+
+
+
+.header {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('chemin/vers/votre/image.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif; /* Choisissez une police de caractères appropriée */
+}
+
+h1 {
+    font-size: 36px;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005684;
 }
