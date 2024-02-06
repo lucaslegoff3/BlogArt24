@@ -16,7 +16,7 @@ Date d'entrée en vigueur : 2 février 2024
 <br>
 En utilisant ce blog, vous acceptez pleinement et sans réserve les présentes Conditions Générales d'Utilisation (CGU). Si vous n'êtes pas d'accord avec l'une de ces conditions, veuillez ne pas utiliser ce blog.
 <br>
-
+<br>
 1. Acceptation des conditions
 <br>
 En accédant et en utilisant ce blog, vous reconnaissez avoir lu, compris et accepté les présentes CGU.
