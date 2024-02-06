@@ -45,8 +45,7 @@ sql_connect();
     <form id="comment-form">
       <label for="name">Utilisateur</label>
       <input type="text" id="name" required>
-      <label for="comment">Commentaire:</label>
-      <textarea id="comment" rows="4" required></textarea>
+      <textarea id="comment" rows="4" required>insérer un commentaire</textarea>
       <button type="submit">envoyer</button>
     </form>
   </div>
