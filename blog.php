@@ -42,6 +42,7 @@ sql_connect();
     <div class="commentaires">
     <h2>Commentaires</h2>
     <div id="comments-list"></div>
+    <img src="utilisateur.webp">
     <h3>Utilisateur</h3>
     <form id="comment-form">
       <textarea
