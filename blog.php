@@ -43,7 +43,7 @@ sql_connect();
     <h2>Commentaires</h2>
     <div id="comments-list"></div>
     <form id="comment-form">
-      <label for="name">Utilisateur</label>
+      <h3>Utilisateur</h3>
       <input type="text" id="name" required>
       <textarea
         name="textarea"
@@ -55,8 +55,6 @@ sql_connect();
   </div>
     
 
-    
-    
 </body>
 
 <?php require_once 'footer.php'; ?>
