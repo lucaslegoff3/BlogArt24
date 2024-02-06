@@ -8,23 +8,23 @@ body {
     src: url('Minal.woff2') format('woff2');
   }
 
-  @font-face {
-    font-family: 'Nohemi-Bold.woff2';
+@font-face {
+    font-family: 'Nohemi-Bold';
     src: url('Nohemi-Bold.woff2') format('woff2');
   }
 
-  @font-face {
-    font-family: 'Nohemi-Light.woff2';
+@font-face {
+    font-family: 'Nohemi-Light';
     src: url('Nohemi-Light.woff2') format('woff2');
   }
 
-  @font-face {
-    font-family: 'Nohemi-Medium.woff2';
+@font-face {
+    font-family: 'Nohemi-Medium';
     src: url('Nohemi-Medium.woff2') format('woff2');
   }
 
-  @font-face {
-    font-family: 'Nohemi-Regular.woff2';
+@font-face {
+    font-family: 'Nohemi-Regular';
     src: url('Nohemi-Regular.woff2') format('woff2');
   }
 
