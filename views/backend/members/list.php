@@ -14,8 +14,8 @@ $Members = sql_select("membre INNER JOIN statut ON membre.numStat = statut.numSt
                 <thead>
                     <tr>
                         <th>Id</th>
+                        <th>Préom des membres</th>
                         <th>Nom des membres</th>
-                        <th>Prénom des membres</th>
                         <th>Pseudo des membres</th>
                         <th>Mot de passe des membres</th>
                         <th>e-Mail des membres</th>

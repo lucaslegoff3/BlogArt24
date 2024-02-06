@@ -8,47 +8,29 @@ body {
     src: url('Minal.otf') format('otf');
   }
 
-  @font-face {
-    font-family: 'Nohemi-Bold';
-    src: url('Nohemi-Bold.woff2') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Nohemi-Light';
-    src: url('Nohemi-Light.woff2') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Nohemi-Medium.woff2';
+@font-face {
+    font-family: 'Nohemi-Medium';
     src: url('Nohemi-Medium.woff2') format('woff2');
   }
 
-  @font-face {
-    font-family: 'Nohemi-Regular.woff2';
+@font-face {
+    font-family: 'Nohemi-Regular';
     src: url('Nohemi-Regular.woff2') format('woff2');
   }
 
 h1 {
     font-family: 'Minal';
-    font-weight: 700px;
-    font-size: 48px;
 }
 h2 {
     font-family: 'Nohemi-Medium';
-    font-weight: 500px;
 }
 h3 {
     font-family: 'Nohemi-Regular';
-    font-weight: 400px;
 }
 h4 {
     font-family: 'Nohemi-Regular';
-    font-weight: 400px;
 }
-p {
-    font-family: 'Nohemi-Regular';
-    font-weight: 300px;
-}
+
 
 footer {
     background-color: black;
@@ -75,6 +57,21 @@ footer button {
     font-size: 14px;
 }
 
+h1 {
+    font-family: 'Minal'
+}
+h2 {
+    font-family: 'Nohemi-Medium'
+}
+h3 {
+    font-family: 'Nohemi-Regular'
+}
+h4 {
+    font-family: 'Nohemi-Regular'
+}
+p {
+    font-family: 'Nohemi-Regular'
+}
 .equipe{
     padding: 20px;
     display: flex;
@@ -89,11 +86,6 @@ footer button {
     background-position: center;
     color: white;
     font-family: Arial, sans-serif; /* Choisissez une police de caractères appropriée */
-}
-
-h1 {
-    font-size: 36px;
-    text-align: center;
 }
 
 button {
