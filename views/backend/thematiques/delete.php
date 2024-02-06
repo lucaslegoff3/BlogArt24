@@ -8,17 +8,17 @@ if(isset($_GET['numThem'])){
 }
 ?>
 
-<!-- Bootstrap form to create a new statut -->
+<!-- Bootstrap form to create a new thematique -->
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Suppression Statut</h1>
+            <h1>Suppression Thématique</h1>
         </div>
         <div class="col-md-12">
-            <!-- Form to create a new statut -->
+            <!-- Form to create a new thematique -->
             <form action="<?php echo ROOT_URL . '/api/thematiques/delete.php' ?>" method="post">
                 <div class="form-group">
-                    <label for="libThem">Nom du statut</label>
+                    <label for="libThem">Nom du thématique</label>
                     <input id="numThem" name="numThem" class="form-control" style="display: none" type="text" value="<?php echo($numThem); ?>" readonly="readonly" />
                     <input id="libThem" name="libThem" class="form-control" type="text" value="<?php echo($libThem); ?>" readonly="readonly" disabled />
                 </div>
