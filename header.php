@@ -50,8 +50,8 @@ require_once 'config.php';
             <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
           </div>
         </form>
-        <a id="inscription" class="btn btn-secondary m-1" href="" role="button">Inscription</a>
-        <a id="connexion" class="btn btn-primary m-1" href="/views/frontend/Inscription.php" role="button">Connexion</a>
+        <a id="inscription" class="btn btn-secondary m-1" href="/views/frontend/Inscription.php" role="button">Inscription</a>
+        <a id="connexion" class="btn btn-primary m-1" href="" role="button">Connexion</a>
       </div>
     </div>
   </nav>
