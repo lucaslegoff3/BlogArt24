@@ -236,11 +236,13 @@ button:hover {
 .arti1{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .arti2{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 /*Inscription */
