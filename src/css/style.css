@@ -231,6 +231,18 @@ button:hover {
     margin-bottom: 5%;
 }
 
+/* EVENEMENTS */
+
+.arti1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.arti2{
+    display: flex;
+    justify-content: space-around;
+}
+
 /*Inscription */
 
 .pop-up{
