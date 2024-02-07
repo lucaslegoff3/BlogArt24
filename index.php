@@ -4,30 +4,34 @@ sql_connect();
 ?>
 
 <div class="header">
-    <h1>LA MUSIQUE ACCESSIBLE A TOUS</h1>
-    <button>Découvrir</button>
+    <h1 class="accueil">LA MUSIQUE ACCESSIBLE A TOUS</h1>
+    <button class="accueil">Découvrir</button>
 </div>
 <hr>
-<section>
-<div>
-        <img src="img_art_1.webp">
-        <h3>Article</h3>
-        <h6>en savoir plus</h6>
-    </div>
+<section class="article_accueil">
     <div>
-        <img src="img_art_1.webp">
-        <h3>Article</h3>
-        <h6>en savoir plus</h6>
+        <div>
+            <img src="img_art_1.webp">
+            <h3>Article</h3>
+            <h6>en savoir plus</h6>
+        </div>
+        <div>
+            <img src="img_art_1.webp">
+            <h3>Article</h3>
+            <h6>en savoir plus</h6>
+        </div>
     </div>
-    <div>
-        <img src="img_art_1.webp">
-        <h3>Article</h3>
-        <h6>en savoir plus</h6>
-    </div>
-    <div>
-        <img src="img_art_1.webp">
-        <h3>Article</h3>
-        <h6>en savoir plus</h6>
+    <div> 
+        <div>
+            <img src="img_art_1.webp">
+            <h3>Article</h3>
+            <h6>en savoir plus</h6>
+        </div>
+        <div>
+            <img src="img_art_1.webp">
+            <h3>Article</h3>
+            <h6>en savoir plus</h6>
+        </div>
     </div>
 </section>
 <hr>
