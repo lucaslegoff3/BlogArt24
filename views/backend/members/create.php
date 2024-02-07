@@ -1,5 +1,6 @@
 <?php
 include '../../../header.php';
+include '../../../api/articles/create.php';
 
 
 
