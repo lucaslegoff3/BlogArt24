@@ -279,3 +279,7 @@ button:hover {
 #modal .container .message{
     padding: 5% 15% 5% 5%;
 }
+
+p {
+    border-bottom:1px solid black;
+    }
