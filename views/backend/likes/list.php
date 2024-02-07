@@ -1,14 +1,14 @@
 <?php
 include '../../../header.php'; // contains the header and call to config.php
 
-//Load all Membuts
+//Load all Likes
 $Likes = sql_select("likeart 
                     INNER JOIN membre ON likeart.numMemb = membre.numMemb
                     INNER JOIN article ON likeart.numArt = article.numArt", "*");
 
 ?>
 
-<!-- Bootstrap default layout to display all Members in foreach -->
+<!-- Bootstrap default layout to display all Likes in foreach -->
 <div class="container">
     <div class="row">
         <div class="col-md-12">
