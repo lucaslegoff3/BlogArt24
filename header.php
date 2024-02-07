@@ -25,7 +25,7 @@ require_once 'config.php';
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="blog.php">Accueil</a>
+            <a class="nav-link active" aria-current="page" href="/">Accueil</a>
           </li>
           <li>
             <a class="nav-link active" href="/views/frontend/evenements.php">Evenements</a>
