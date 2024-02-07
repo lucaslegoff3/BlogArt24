@@ -70,7 +70,7 @@ footer img {
     max-width: 100;
 }
 
-footer button {
+footer button .footer {
     background-color: none;
     color: white;
     border: none;
