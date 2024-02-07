@@ -32,7 +32,7 @@
         <H2>Message</H2>
         <!-------------------------------- rajt rectangle "Objet du msg" + txt ------------------------------------------->
         <div class="ObjetMess">
-            <H2>Objet du message/H2>
+            <H2>Objet du message</H2>
             <!-------------------------------- rjt rect mail + txt ------------------------------------------->
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Objet"/>
         </div>   
