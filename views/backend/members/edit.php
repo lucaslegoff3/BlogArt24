@@ -28,8 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="preload" href="code.js" as="script">
-    <script src="code.js" preload></script>
+    <link rel="preload" href="members.js" as="script">
+    <script src="members.js" preload></script>
 </head>
 
 <body>

@@ -10,8 +10,8 @@ $membres = sql_select("membre INNER JOIN statut on membre.numStat = statut.numSt
 <head>
     <meta charset="UTF-8">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="preload" href="code.js" as="script">
-    <script src="code.js" preload></script>
+    <link rel="preload" href="members.js" as="script">
+    <script src="members.js" preload></script>
 </head>
 <div class="container">
     <div class="row">

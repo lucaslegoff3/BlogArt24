@@ -1,6 +1,17 @@
 <?php
 include '../../../header.php';
 
+
+function verifierMotDePasse($motDePasse) {
+    $taille = strlen($motDePasse) >= 8 && strlen($motDePasse) <= 15;
+    $majuscule = preg_match('/[A-Z]/', $motDePasse);
+    $minuscule = preg_match('/[a-z]/', $motDePasse);
+    $chiffre = preg_match('/[0-9]/', $motDePasse);
+    $special = preg_match('/[^A-Za-z0-9]/', $motDePasse);
+    return $taille && $majuscule && $minuscule && $chiffre && $special;
+}
+
+
 if (isset($_POST["pseudo"], $_POST["password"], $_POST["confirm_password"], $_POST["prenom"], $_POST["nom"], $_POST["email"], $_POST["confirm_email"], $_POST["accord"])) {
     $pseudoMemb = $_POST["pseudo"];
     $passMemb = $_POST["password"];
@@ -13,7 +24,7 @@ if (isset($_POST["pseudo"], $_POST["password"], $_POST["confirm_password"], $_PO
     $dtCreaMemb = date("Y-m-d H:i:s");
 
     if (!empty($pseudoMemb) && !empty($passMemb) && !empty($confirmPassMemb) && !empty($prenomMemb) && !empty($nomMemb) && !empty($eMailMemb) && !empty($confirmEmailMemb) && !empty($accordMemb)) {
-        if (strlen($passMemb) >= 8 && strlen($passMemb) <= 15 && preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,15}$/", $passMemb)) {
+        if (verifierMotDePasse($passMemb)) {
             if ($passMemb === $confirmPassMemb) {
                 if ($eMailMemb === $confirmEmailMemb) {
                     $checkPseudoQuery = $bdd->prepare("SELECT COUNT(*) FROM membre WHERE pseudoMemb = :pseudo");
@@ -70,8 +81,8 @@ if (isset($_POST["pseudo"], $_POST["password"], $_POST["confirm_password"], $_PO
 <head>
     <meta charset="UTF-8">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="preload" href="code.js" as="script">
-    <script src="code.js" preload></script>
+    <link rel="preload" href="members.js" as="script">
+    <script src="members.js" preload></script>
 </head>
 
 <body>
