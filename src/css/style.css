@@ -70,7 +70,7 @@ footer img {
     max-width: 100;
 }
 
-footer button {
+.footer button {
     background-color: none;
     color: white;
     border: none;
@@ -215,6 +215,44 @@ button:hover {
 /*Inscription */
 
 .Inscription{
+    #modal{
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+    }
+    #modal.open{
+        display: block;
+    }
+    #modal .mask{
+        background: black;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    #modal .container{
+        position: relative;
+        background: white;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 300px;
+        height: auto;
+        min-height: 50px;
+    }
+
+    #modal .container .message{
+        padding: 5% 15% 5% 5%;
+    }
+
+    
     border-radius: 20px;
 
 }
