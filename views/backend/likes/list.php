@@ -15,7 +15,7 @@ $Likes = sql_select("LIKEART", "*");
                     <tr>
                         <th>Numéro des membres</th>
                         <th>Numéro des articles</th>
-                        <th>Like A</th>
+                        <th>a aimé ?</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
