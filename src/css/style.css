@@ -98,12 +98,16 @@ p {
 
 .header {
     text-align: center;
-    padding: 100px 0;
-    background-image: url('chemin/vers/votre/image.jpg'); /* Remplacez par le chemin de votre image */
+    padding: 200px 0;
+    background-image: url('../images/hellfest.webp');
+    opacity: 100%;
     background-size: cover;
     background-position: center;
     color: white;
-    font-family: Arial, sans-serif; /* Choisissez une police de caractères appropriée */
+}
+
+.accueil{
+    margin: 30px;
 }
 
 button {
@@ -182,4 +186,11 @@ button:hover {
     background: none !important;
     border: none !important;
     color: black !important;
+}
+
+/* ACCUEIL */
+
+.article_accueil{
+    display: flex;
+    justify-content: space-around;
 }
