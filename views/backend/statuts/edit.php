@@ -1,34 +1,59 @@
 <?php
+include '../../../footer.php';
 include '../../../header.php';
 
-if(isset($_GET['numStat'])){
-    $numStat = $_GET['numStat'];
-    $result = sql_select("STATUT", "libStat", "numStat = $numStat");
-    if (!empty($result)) {
-        $libStat = $result[0]['libStat'];
-    } else {
-    }
-}
-?>
+$statuts = sql_select("STATUT", "*");
 
-<!-- Bootstrap form to create a new statut -->
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $numStat = $_POST['numStat'];
+    $libStat = $_POST['libStat'];
+
+    $pdo = new PDO('mysql:host=localhost;dbname=blogart24', 'root', 'root');
+
+    $updateQuery = "UPDATE statut SET libStat = :libStat WHERE numStat = :numStat";
+    $updateStmt = $pdo->prepare($updateQuery);
+    $updateStmt->bindParam(':numStat', $numStat);
+    $updateStmt->bindParam(':libStat', $libStat);
+    $updateStmt->execute();
+    header("Location: edit.php");
+    exit();
+}
+
+?>
+<html>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Modification Statut</h1>
-        </div>
-        <div class="col-md-12">
-            <form action="<?php echo ROOT_URL . '/api/statuts/update.php' ?>" method="post">
-                <div class="form-group">
-                    <label for="libStat">Nom du statut</label>
-                    <input id="numStat" name="numStat" class="form-control" style="display: none" type="text" value="<?php echo isset($numStat) ? htmlspecialchars($numStat) : ''; ?>" readonly="readonly" />
-                    <input id="libStat" name="libStat" class="form-control" type="text" value="<?php echo htmlspecialchars($libStat); ?>" />
-                </div>
-                <br />
-                <div class="form-group mt-2">
-                    <button type="submit" class="btn btn-primary">Enregistrer les modifications</button>
-                </div>
-            </form>
+            <h1>Statuts</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nom des statuts</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($statuts as $statut) { ?>
+                        <tr>
+                            <form method="POST" action="edit.php">
+                                <td><?php echo ($statut['numStat']); ?></td>
+                                <td>
+
+                                    <input type="hidden" name="numStat" value="<?php echo ($statut['numStat']); ?>">
+                                    <input type="text" name="libStat" value="<?php echo ($statut['libStat']); ?>">
+                                </td>
+                                <td>
+                                    <button type="submit" name="save" class="btn btn-primary">Save</button>
+
+                                    <a href="delete.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-danger">Delete</a>
+                                </td>
+                            </form>
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
+            <a href="create.php" class="btn btn-success">Create</a>
         </div>
     </div>
 </div>
