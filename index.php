@@ -5,7 +5,7 @@ sql_connect();
 
 <div class="header">
     <h1 class="accueil">LA MUSIQUE ACCESSIBLE A TOUS</h1>
-    <button class="accueil">Découvrir</button>
+    <button class="buttongen">Découvrir</button>
 </div>
 <hr>
 <section class="article_accueil">
