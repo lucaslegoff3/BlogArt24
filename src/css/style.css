@@ -52,7 +52,7 @@ a {
     font-family: 'Nohemi-Regular';
 }
 
-.accueil1{
+img .accueil1{
     border-radius: 5px;
     height: 530px;
     left: 64px;
@@ -61,7 +61,7 @@ a {
     width: 763px;
 }
 
-.accueil2{
+img .accueil2{
     border-radius: 5px;
     height: 357px;
     left: 859px;
@@ -70,11 +70,11 @@ a {
     width: 357px;
 }
 
-.accueil3{
+img .accueil3{
     margin: 30px;
 }
 
-.accueil4{
+img .accueil4{
     margin: 30px;
 }
 
