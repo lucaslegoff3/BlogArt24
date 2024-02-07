@@ -70,16 +70,22 @@ footer img {
     max-width: 100;
 }
 
+.buttonfooter:hover {
+    outline-color: rgb(30, 99, 245) !important;
+    background-color: black;
+}
 .buttonfooter {
-    background-color: none;
+    background-color: black;
     color: white;
     border: none;
     padding: 8px 16px;
     cursor: pointer;
-    font-size: 14px;
     height: 47px;
     width: 167px;
+    border-radius: 15px !important; 
     outline: 2px solid #fff !important;
+    font-family: 'Nohemi-Regular';
+    font-size: 18px;
 }
 
 h1 {
@@ -121,6 +127,7 @@ p {
     background-color: rgb(30, 99, 245);
     color: white;
     padding: 10px 20px;
+    font-family: 'Nohemi-Regular';
     font-size: 18px;
     border: none;
     cursor: pointer;
