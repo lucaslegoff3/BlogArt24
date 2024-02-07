@@ -3,7 +3,7 @@ require_once 'config.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8" />
