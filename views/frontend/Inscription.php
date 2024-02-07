@@ -48,4 +48,4 @@ sql_connect();
     
         <!-------------------------------- rjt bouton inscrire + txt + ombre ------------------------------------------->
         
-<?php require_once '../../footer.php'; ?>
+        <?php require_once '../../footer.php'; ?>

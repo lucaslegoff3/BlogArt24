@@ -1,5 +1,5 @@
 <?php 
-require_once 'header.php';
+require_once '../../header.php';
 sql_connect();
 ?>
 
@@ -58,4 +58,4 @@ sql_connect();
 
 </body>
 
-<?php require_once 'footer.php'; ?>
+<?php require_once '../../footer.php'; ?>

@@ -31,7 +31,7 @@ require_once 'config.php';
         <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/evenements.php">Evenements</a>
         </li>
         <li>
-        <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/article1.php">Blog</a>
+        <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/blog.php">Blog</a>
         </li>
         <li>
         <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/equipe.php">À propos</a>

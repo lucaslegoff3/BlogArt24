@@ -24,7 +24,7 @@
 	<div>
 		<h5>Nous suivre</h5>
 		<p>S'abonner à la Newsletter</p>
-		<button class=buttonfooter action="<?php echo ROOT_URL; ?>/views/frontend/contacte.php">Nous contacter</button>
+		<a href="<?php echo ROOT_URL; ?>/views/frontend/contact.php"><button class="buttonfooter">Nous contacter</button></a>
 	</div>
 
 </footer>
