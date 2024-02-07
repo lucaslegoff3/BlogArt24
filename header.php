@@ -55,4 +55,4 @@ require_once 'config.php';
       <a id="inscription" class="btn btn-primary m-1" href="/views/backend/security/login.php" role="button">Inscription</a>
     </div>
   </div>
-</nav>
+</nav>w
