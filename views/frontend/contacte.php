@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
+
 <body>
 
     <H1>Connectez-vous</H1>
 
-<!-------------------------------- Ligne à rjt CSS ------------------------------------------->
+    <!-------------------------------- Ligne à rjt CSS ------------------------------------------->
 
     <div class="mail">
         <H2>E-Mail</H2>
@@ -26,21 +28,22 @@
         Afficher le mot de passe
     </div>
 
-        <!-------------------------------- rjt rectangle Connexion + txt ------------------------------------------->
-        Se connecter
+    <!-------------------------------- rjt rectangle Connexion + txt ------------------------------------------->
+    Se connecter
 
     <div class="mdp oublié">
         <!-------------------------------- rjt rond flêche ------------------------------------------->
         Mot de passe oublié ?
     </div>
 
-<!-------------------------------- Ligne à rjt CSS ------------------------------------------->
+    <!-------------------------------- Ligne à rjt CSS ------------------------------------------->
 
     <H3>Vous n'êtes pas encore inscrit ?</H3>
     <div class="Inscription">
-        <!-------------------------------- rjt rond flêche ------------------------------------------->       
+        <!-------------------------------- rjt rond flêche ------------------------------------------->
         Inscrivez-vous ici
     </div>
-    
+
 </body>
+
 </html>
