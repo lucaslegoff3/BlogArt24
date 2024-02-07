@@ -235,7 +235,8 @@ button:hover {
 
 .pop-up{
     border: 1px solid black;
-    background-color: red;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .hidden{
