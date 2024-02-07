@@ -267,9 +267,3 @@ button:hover {
 #modal .container .message{
     padding: 5% 15% 5% 5%;
 }
-
-.box {
-    border: 1px solid black;
-    height: 1044px;
-    width: 645px;
-  }
