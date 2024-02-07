@@ -121,10 +121,11 @@ button {
     font-size: 18px;
     border: none;
     cursor: pointer;
+    border-radius: 15px
 }
 
 button:hover {
-    background-color: #005684;
+    background-color: rgb(24, 79, 197)
 }
 
 
