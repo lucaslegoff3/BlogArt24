@@ -1,7 +1,7 @@
 <?php
 include '../../../header.php';
 
-if(isset($_GET['numStat'])){
+if (isset($_GET['numStat'])) {
     $numStat = $_GET['numStat'];
     $result = sql_select("STATUT", "libStat", "numStat = $numStat");
     if (!empty($result)) {

@@ -1,7 +1,7 @@
 <?php
 include '../../../header.php';
 
-if(isset($_GET['numThem'])){
+if (isset($_GET['numThem'])) {
     $numThem = $_GET['numThem'];
     $result = sql_select("THEMATIQUE", "libThem", "numThem = $numThem");
     if (!empty($result)) {
@@ -24,7 +24,7 @@ if(isset($_GET['numThem'])){
                     <input id="numThem" name="numThem" class="form-control" style="display: none" type="text" value="<?php echo isset($numThem) ? htmlspecialchars($numThem) : ''; ?>" readonly="readonly" />
                     <input id="libThem" name="libThem" class="form-control" type="text" value="<?php echo htmlspecialchars($libThem); ?>" />
                 </div>
-                <br />
+                <br>
                 <div class="form-group mt-2">
                     <button type="submit" class="btn btn-primary">Enregistrer les modifications</button>
                 </div>
