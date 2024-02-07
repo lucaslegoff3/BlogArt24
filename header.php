@@ -52,7 +52,7 @@ require_once 'config.php';
       </div>
       </form>
       <a id="connexion" class="btn btn-primary m-1" href="/views/backend/security/login.php" role="button">Connexion</a>
-      <a id="inscription" class="btn btn-primary m-1" href="/views/backend/security/login.php" role="button">Inscription</a>
+      <a id="inscription" class="btn btn-primary m-1" href="/views/backend/security/signup.php" role="button">Inscription</a>
     </div>
   </div>
 </nav>
