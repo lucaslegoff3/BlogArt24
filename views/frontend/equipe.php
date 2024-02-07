@@ -8,7 +8,7 @@ include("../../header.php")
 <hr>
 <section class="equipe">
   <div>
-    <img src="../../src/images/legoff.webp" class="tete_equipe">
+    <img src="../../src/images/le_goff.webp" class="tete_equipe">
     <h4>Lucas Le Goff</h4>
     <h6>Polyvalent</h6>
   </div>
