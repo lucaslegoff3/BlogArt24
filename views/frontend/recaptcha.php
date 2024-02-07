@@ -3,9 +3,9 @@
  * captcha with phpmaster account
 */
 
-if($_SERVER['REQUEST_METHOD']=="POST"){
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
-    if(isset($_POST['g-recaptcha-response'])){
+    if (isset($_POST['g-recaptcha-response'])) {
         $token = $_POST['g-recaptcha-response'];
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $data = array(
@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         );
 
         $options = array(
-            'http' => array (
+            'http' => array(
                 'header' => "Content-Type: application/x-www-form-urlencoded\r\n",
                 'method' => 'POST',
                 'content' => http_build_query($data)
@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         */
         if ($response->success && $response->score >= 0.5) {
             //Le test est réussi, on peut inscrire la personne si le pseudo et le mot de passe sont bons
-            echo json_encode(array('success' => true, "msg"=>"You are not a robot!", "response"=>$response));
+            echo json_encode(array('success' => true, "msg" => "You are not a robot!", "response" => $response));
         } else {
             /*
             * if score is less than 0.5, you can do following things
@@ -42,9 +42,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             *              - Limit unanswered friend requests from abusive users and send risky comments to moderation.
             * e-commerce => Put your real sales ahead of bots and identify risky transactions.
             * */
-            echo json_encode(array('success' => false, "msg"=>"You are a robot!", "response"=>$response));
+            echo json_encode(array('success' => false, "msg" => "You are a robot!", "response" => $response));
         }
     }
 }
-
-?>
