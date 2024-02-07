@@ -25,8 +25,8 @@ $commentaires = sql_select("comment
                         <th>Justification modération si ! visible</th>
                         <th>Date supprimé commentaire</th>
                         <th>Supression logique</th>
-                        <th>Numéro Article</th>
-                        <th>Numéro Membre</th>
+                        <th>Nom de l'Article</th>
+                        <th>Pseudo Membre</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
