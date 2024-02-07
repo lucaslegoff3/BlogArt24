@@ -24,7 +24,7 @@
 	<div>
 		<h5>Nous suivre</h5>
 		<p>S'abonner à la Newsletter</p>
-		<button>Nous contacter</button>
+		<button class=footer>Nous contacter</button>
 	</div>
 
 </footer>
