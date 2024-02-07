@@ -51,7 +51,7 @@ require_once 'config.php';
           </div>
         </form>
         <a id="inscription" class="btn btn-secondary m-1" href="/views/frontend/Inscription.php" role="button">Inscription</a>
-        <a id="connexion" class="btn btn-primary m-1" href="" role="button">Connexion</a>
+        <a id="connexion" class="btn btn-primary m-1" href="/views/frontend/connexion.php" role="button">Connexion</a>
       </div>
     </div>
   </nav>
