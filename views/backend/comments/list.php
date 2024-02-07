@@ -55,5 +55,8 @@ $commentaires = sql_select("comment
         </div>
     </div>
 </div>
+
+<br>
+
 <?php
 include '../../../footer.php'; // contains the footer
