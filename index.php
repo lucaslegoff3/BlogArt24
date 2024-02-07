@@ -11,12 +11,12 @@ sql_connect();
 <section class="article_accueil">
     <div>
         <div>
-            <img class=accueil1 src="src/images/duteil.webp">
+            <img class=accueil1 src="src/images/article.png">
             <h3>Article</h3>
             <h6>en savoir plus</h6>
         </div>
         <div>
-            <img class=accueil2 src="src/images/duteil.webp">
+            <img class=accueil2 src="src/images/article.png">
             <h3>Article</h3>
             <h6>en savoir plus</h6>
         </div>
