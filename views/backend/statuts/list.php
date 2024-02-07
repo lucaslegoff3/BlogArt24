@@ -1,16 +1,13 @@
 <?php
-include '../../../header.php'; // contains the header and call to config.php
+include '../../../header.php'; 
 
-//Load all statuts
 $statuts = sql_select("STATUT", "*");
 ?>
-
-<!-- Bootstrap default layout to display all statuts in foreach -->
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <h1>Statuts</h1>
-            <table class="table table-striped">
+            <table class="table table-striped table-responsive">
                 <thead>
                     <tr>
                         <th>Id</th>
@@ -36,4 +33,4 @@ $statuts = sql_select("STATUT", "*");
     </div>
 </div>
 <?php
-include '../../../footer.php'; // contains the footer
+include '../../../footer.php';
