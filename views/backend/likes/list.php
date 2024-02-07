@@ -2,7 +2,10 @@
 include '../../../header.php'; // contains the header and call to config.php
 
 //Load all Membuts
-$Likes = sql_select("LIKEART", "*");
+$Likes = sql_select("likeart 
+                    INNER JOIN membre ON likeart.numMemb = membre.numMemb
+                    INNER JOIN article ON likeart.numArt = article.numArt", "*");
+
 ?>
 
 <!-- Bootstrap default layout to display all Members in foreach -->
@@ -13,8 +16,8 @@ $Likes = sql_select("LIKEART", "*");
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>Numéro des membres</th>
-                        <th>Numéro des articles</th>
+                        <th>Pseudo de membres</th>
+                        <th>Nom des articles</th>
                         <th>a aimé ?</th>
                         <th>Actions</th>
                     </tr>
@@ -22,8 +25,8 @@ $Likes = sql_select("LIKEART", "*");
                 <tbody>
                     <?php foreach($Likes as $Like){ ?>
                         <tr>
-                            <td><?php echo($Like['numMemb']); ?></td>
-                            <td><?php echo($Like['numArt']); ?></td>
+                            <td><?php echo($Like['pseudoMemb']); ?></td>
+                            <td><?php echo($Like['libTitrArt']); ?></td>
                             <td><?php echo($Like['likeA']); ?></td>
                             <td>
                                 <a href="edit.php?numMemb=<?php echo($Like['numMemb']); ?>" class="btn btn-primary">Edit</a>
