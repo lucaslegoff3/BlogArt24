@@ -168,6 +168,9 @@ button:hover {
     background-color: rgb(24, 79, 197)
 }
 
+.barre{
+    margin: 5%;
+}
 
 /* EQUIPE */
 
@@ -323,4 +326,16 @@ button:hover {
 
 #modal .container .message{
     padding: 5% 15% 5% 5%;
+}
+
+/* ARTICLE 1 */
+
+.article_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.article{
+    margin: auto;
+    width: 60%;
 }
