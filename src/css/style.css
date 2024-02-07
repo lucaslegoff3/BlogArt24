@@ -333,3 +333,12 @@ button:hover {
     margin: auto;
     width: 60%;
 }
+
+/* CGU */
+
+.cgu{
+    width: 60%;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
