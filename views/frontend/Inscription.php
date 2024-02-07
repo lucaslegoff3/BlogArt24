@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
-    <title>Inscription</title>
-</head>
-<body>
+<?php 
+require_once '../../header.php';
+sql_connect();
+?>
+
     <div id="modal">
         <div class="mask"></div>
         <div class="container auto">
@@ -43,5 +39,5 @@
     
         <!-------------------------------- rjt bouton inscrire + txt + ombre ------------------------------------------->
         En cliquant sur « S'inscrire », vous confirmez que vous acceptez les Conditions générales d'utilisation et notre Politique de confidentialité qui vous informe des modalités de traitement de vos données personnelles ainsi que de vos droits sur ces données.
-</body>
-</html>
+
+<?php require_once '../../footer.php'; ?>

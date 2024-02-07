@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+require_once '../../header.php';
+sql_connect();
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CGU</title>
-</head>
-
-<body>
     <h1>Mentions légales</h1>
     <br>
     Conditions Générales d'Utilisation (CGU) pour LS ART

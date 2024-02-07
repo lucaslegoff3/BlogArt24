@@ -28,4 +28,17 @@
 	</div>
 
 </footer>
+
+<script>
+	function popUpInscription(){
+		let pop_up_inscription = document.getElementById("pop-up-inscription");
+		pop_up_inscription.classList.remove("hidden");
+	}
+
+	function popUpInscriptionClose(){
+		let pop_up_inscription = document.getElementById("pop-up-inscription");
+		pop_up_inscription.classList.add("hidden");
+	}
+</script>
+
 </html>
