@@ -46,7 +46,7 @@ $articles = sql_select("article INNER JOIN thematique ON article.numThem = thema
                             <td><?php echo($article['libSsTitr2Art']); ?></td>
                             <td><?php echo($article['parag3Art']); ?></td>
                             <td><?php echo($article['libConclArt']); ?></td>
-                            <td><?php echo($article['urlPhotArt']); ?></td>
+                            <td><img src="../../../src/uploads/<?php echo str_replace("jpg", "png", $article['urlPhotArt']); ?>" alt="Description de l'image" style="max-width: 600px; height: auto;"></td>
                             <td><?php echo($article['libThem']); ?></td>
                             <td>
                                 <a href="edit.php?numStat=<?php echo($statut['numStat']); ?>" class="btn btn-primary">Edit</a>
@@ -60,5 +60,10 @@ $articles = sql_select("article INNER JOIN thematique ON article.numThem = thema
         </div>
     </div>
 </div>
+
+<br>
+
 <?php
 include '../../../footer.php'; // contains the footer
+
+

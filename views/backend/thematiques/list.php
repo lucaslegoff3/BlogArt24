@@ -35,5 +35,8 @@ $thematiques = sql_select("THEMATIQUE", "*");
         </div>
     </div>
 </div>
+
+<br>
+
 <?php
 include '../../../footer.php'; // contains the footer

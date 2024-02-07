@@ -53,5 +53,7 @@ $membres = sql_select("membre INNER JOIN statut on membre.numStat = statut.numSt
     </div>
 </div>
 
+<br>
+
 <?php
 include '../../../footer.php';

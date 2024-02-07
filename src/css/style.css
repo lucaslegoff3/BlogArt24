@@ -52,6 +52,24 @@ a {
     font-family: 'Nohemi-Regular';
 }
 
+.accueil1{
+    border-radius: 5px;
+    height: 530px;
+    left: 64px;
+    top: 766px;
+    width: 1152px;
+}
+
+.accueil2{
+    border-radius: 5px;
+    height: 341px;
+    left: 64px;
+    top: 1434px;
+    width: 1152px;
+}
+
+
+
 
 
 footer {
@@ -60,6 +78,7 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    height: 329px;
 }
 
 footer div {
@@ -67,7 +86,13 @@ footer div {
 }
 
 footer img {
-    max-width: 100;
+    max-width: 95;
+    height: 59px;
+    width: 95px;
+}
+
+footer h5 {
+    font-family: 'Nohemi-Regular';
 }
 
 .buttonfooter:hover {
@@ -229,6 +254,25 @@ button:hover {
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+/* EVENEMENTS */
+
+.arti1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.arti2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.carroussel{
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Inscription */

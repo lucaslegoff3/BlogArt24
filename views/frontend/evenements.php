@@ -70,41 +70,34 @@ require_once '../../config.php';
     <section class="carroussel">
         <div class="img1">
             <img src="img1">
-            Evenement "..."
-            En savoir
-            plus
+                <h4>Evenement "..."</h4>
+                <h6>en savoir plus</h6>
         </div>
         <div class="img2">
             <img src="img3">
-            Evenement "..."
-            En savoir
-            plus
+                <h4>Evenement "..."</h4>
+                <h6>en savoir plus</h6>
         </div>
 
 
         <div class="img3">
             <img src="img3">
-            Evenement "..."
-            En savoir
-            plus
+                <h4>Evenement "..."</h4>
+                <h6>en savoir plus</h6>
     </section>
 
     <!-------------------------------- Ajouter ligne en CSS ------------------------------------------->
 
-    <div class="ligne">Ajouter ligne CSS</div>
+    <hr>
 
     <!-------------------------------- Evenement en cours ------------------------------------------->
 
     <div class="En cours">
-        <div class="img4+txt1">
+        <div class="arti1">
             <div class="img4">
                 <img src="img4">
-                <br>
-                <br>
-                Evenement "..."
-                <br>
-                <br>
-                en savoir plus
+                <h4>Evenement "..."</h4>
+                <h6>en savoir plus</h6>
             </div>
 
             <div class="txt1">
@@ -112,19 +105,15 @@ require_once '../../config.php';
             </div>
         </div>
 
-        <div class="txt+img5">
+        <div class="arti2">
             <div class="txt2">
                 Lorem ipsum...
             </div>
 
             <div class="img4">
                 <img src="img4">
-                <br>
-                <br>
-                Evenement "..."
-                <br>
-                <br>
-                en savoir plus
+                <h4>Evenement "..."</h4>
+                <h6>en savoir plus</h6>
             </div>
         </div>
     </div>
