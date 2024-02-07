@@ -3,6 +3,14 @@ require_once 'header.php';
 sql_connect();
 ?>
 
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+  <meta charset="utf-8" />
+  <link href="<?php echo ROOT_URL; ?>/src/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
 <div class="header">
     <h1 class="accueil">LA MUSIQUE ACCESSIBLE A TOUS</h1>
     <button class="buttongen">Découvrir</button>
@@ -11,24 +19,12 @@ sql_connect();
 <section class="article_accueil">
     <div>
         <div>
-            <img class=acceuil1 src="src/images/duteil.webp">
+            <img class=accueil1 src="src/images/duteil.webp">
             <h3>Article</h3>
             <h6>en savoir plus</h6>
         </div>
         <div>
-            <img class=acceuil2 src="src/images/duteil.webp">
-            <h3>Article</h3>
-            <h6>en savoir plus</h6>
-        </div>
-    </div>
-    <div> 
-        <div>
-            <img class=acceuil3 src="src/images/duteil.webp">
-            <h3>Article</h3>
-            <h6>en savoir plus</h6>
-        </div>
-        <div>
-            <img class=acceuil4 src="src/images/duteil.webp">
+            <img class=accueil2 src="src/images/duteil.webp">
             <h3>Article</h3>
             <h6>en savoir plus</h6>
         </div>

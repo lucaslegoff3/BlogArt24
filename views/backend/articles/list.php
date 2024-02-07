@@ -60,6 +60,9 @@ $articles = sql_select("article INNER JOIN thematique ON article.numThem = thema
         </div>
     </div>
 </div>
+
+<br>
+
 <?php
 include '../../../footer.php'; // contains the footer
 
