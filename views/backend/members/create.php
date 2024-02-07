@@ -11,7 +11,7 @@ include '../../../api/articles/create.php';
     <meta charset="UTF-8">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="preload" href="members.js" as="script">
-    <script src="members.js" preload></script>
+    <script src="../../../src/js/members.js" preload></script>
 </head>
 
 <body>
