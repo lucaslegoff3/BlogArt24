@@ -75,7 +75,7 @@ if (isset($_POST["pseudo"], $_POST["password"], $_POST["confirm_password"], $_PO
 </head>
 
 <body>
-    <h1>S’INSCRIRE</h1>
+    <h1>Création nouveau membre</h1>
     <form action="" method="post" style="padding: 2vw;">
         <div class="form-group">
             <label for="pseudo">Pseudonyme (non modifiable)</label>

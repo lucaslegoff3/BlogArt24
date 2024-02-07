@@ -62,12 +62,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <label for="statut">Statut</label>
                     <input type="text" class="form-control" name="statut" id="statut" placeholder="Statut" value="<?php echo $membres[0]['libStat']; ?>" readonly>
                 </div>
-            <div class="form-group">
-                <label for="recaptcha">reCAPTCHA</label>
-                <div class="g-recaptcha" data-sitekey="6LfpN2QpAAAAAF6lmuCFTukw2i8AiG0Ehb8BbBFq" data-callback="enableSubmitButton"></div>
-            </div>
+                <div class="form-group">
+                    <label for="recaptcha">reCAPTCHA</label>
+                    <div class="g-recaptcha" data-sitekey="6LfpN2QpAAAAAF6lmuCFTukw2i8AiG0Ehb8BbBFq" data-callback="enableSubmitButton"></div>
+                </div>
 
-            <button type="submit" class="btn btn-danger" id="submitBtn" disabled>Supprimer</button>
+                <button type="submit" class="btn btn-danger" id="submitBtn" disabled>Supprimer</button>
         </form>
 
     </div>
