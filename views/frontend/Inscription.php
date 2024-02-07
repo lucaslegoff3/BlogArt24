@@ -7,9 +7,16 @@
     <title>Inscription</title>
 </head>
 <body>
+    <div id="modal">
+        <div class="mask"></div>
+        <div class="container auto">
+            <div class="message"></div>
+            <a href="#" class="close">&times;</a>
+        </div>
+    </div>
     <H1>Inscrivez-vous</H1>
     <!-------------------------------- Ligne à rjt CSS ------------------------------------------->
-
+    
     <div class="formulaire">
         <div class="mail">
             <H2>E-Mail</H2>
