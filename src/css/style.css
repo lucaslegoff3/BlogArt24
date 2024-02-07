@@ -70,6 +70,10 @@ footer img {
     max-width: 100;
 }
 
+.buttonfooter:hover {
+    outline-color: rgb(30, 99, 245);
+    background-color: black;
+}
 .buttonfooter {
     background-color: black;
     color: white;
