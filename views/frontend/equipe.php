@@ -8,7 +8,7 @@ include("../../header.php")
 <hr>
 <section class="equipe">
   <div>
-    <img src="../../src/images/legoff.webp" class="tete_equipe">
+    <img src="../../src/images/le_goff.webp" class="tete_equipe">
     <h4>Lucas Le Goff</h4>
     <h6>Polyvalent</h6>
   </div>
@@ -49,32 +49,6 @@ include("../../header.php")
 <hr>
 
 </body>
-<footer>
-  <div>
-    <img src="../../src/images/LS_logo_blanc.webp">
-    <p>LS'Art © 2024</p>
-  </div>
-  <div>
-    <h5>Plan du site</h5>
-    <p>Accueil</p>
-    <p>Évènements</p>
-    <p>Blog</p>
-    <p>À propos</p>
-    <p>Recherche</p>
-    <p>Connexion</p>
-  </div>
-  <div>
-    <h5>Légal</h5>
-    <p>Gestion des cookies</p>
-    <p>Mention légales</p>
-    <p>Gestion de vos données</p>
-  </div>
-  <div>
-    <h5>Nous suivre</h5>
-    <p>S'abonner à la Newsletter</p>
-    <button>Nous contacter</button>
-  </div>
-
-</footer>
+<?php require_once '../../footer.php'; ?>
 
 </html>

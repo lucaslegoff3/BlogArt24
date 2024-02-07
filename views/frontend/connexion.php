@@ -43,7 +43,7 @@
         <!-------------------------------- rjt rond flêche ------------------------------------------->
         Inscrivez-vous ici
     </div>
-
+    <?php require_once '../../footer.php'; ?>
 </body>
 
 </html>

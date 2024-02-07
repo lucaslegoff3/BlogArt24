@@ -16,43 +16,39 @@ require_once 'config.php';
 
 
 <body>
-  <nav id="navbar" class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <img src="<?php echo ROOT_URL; ?>/src/images/LS_logo_noir.webp" alt="Logo LSART" id="logo_header" class="logo_header">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="<?php echo ROOT_URL; ?>">Accueil</a>
-          </li>
-          <li>
-            <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/evenements.php">Evenements</a>
-          </li>
-          <li>
-            <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/article1.php">Blog</a>
-          </li>
-          <li>
-            <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/equipe.php">À propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/views/backend/dashboard.php">Admin</a>
-          </li>
-        </ul>
-      </div>
-      <!--right align-->
-      <div class="d-flex">
-        <form id="search_bar" class="d-flex" role="search">
-          <div class="input-group mb-3 search_bar">
-            <span class="input-group-text search_icon">
-              <img src="<?php echo ROOT_URL; ?>/src/images/search.png" alt="Pictogramme loupe" id="picto_loupe">
-            </span>
-            <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
-          </div>
-        </form>
-        <a id="connexion" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Connexion</a>
-        <a id="inscription" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Inscription</a>
+<nav id="navbar" class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <img src="<?php echo ROOT_URL; ?>/src/images/LS_logo_noir.webp" alt="Logo LSART" id="logo_header" class="logo_header">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="<?php echo ROOT_URL; ?>">Accueil</a>
+        </li>
+        <li>
+        <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/evenements.php">Evenements</a>
+        </li>
+        <li>
+        <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/blog.php">Blog</a>
+        </li>
+        <li>
+        <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/equipe.php">À propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/views/backend/dashboard.php">Admin</a>
+        </li>
+      </ul>
+    </div>
+    <!--right align-->
+    <div class="d-flex">
+      <form id="search_bar" class="d-flex" role="search">
+        <div class="input-group mb-3 search_bar">
+        <span class="input-group-text search_icon">
+        <img src="<?php echo ROOT_URL; ?>/src/images/search.png" alt="Pictogramme loupe" id="picto_loupe">
+        </span>
+        <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
       </div>
     </div>
   </nav>
