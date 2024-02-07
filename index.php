@@ -29,18 +29,6 @@ sql_connect();
             <h6>en savoir plus</h6>
         </div>
     </div>
-    <div> 
-        <div>
-            <img class=accueil3 src="src/images/duteil.webp">
-            <h3>Article</h3>
-            <h6>en savoir plus</h6>
-        </div>
-        <div>
-            <img class=accueil4 src="src/images/duteil.webp">
-            <h3>Article</h3>
-            <h6>en savoir plus</h6>
-        </div>
-    </div>
 </section>
 <hr>
 <section class="qui_sommes_nous">
