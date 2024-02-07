@@ -10,7 +10,7 @@ include '../../../api/articles/create.php';
 <head>
     <meta charset="UTF-8">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="preload" href="members.js" as="script">
+    <link rel="preload" href="../../../src/js/members.js" as="script">
     <script src="../../../src/js/members.js" preload></script>
 </head>
 
