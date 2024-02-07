@@ -86,7 +86,9 @@ footer div {
 }
 
 footer img {
-    max-width: 100;
+    max-width: 95;
+    height: 59px;
+    width: 95px;
 }
 
 .buttonfooter:hover {
