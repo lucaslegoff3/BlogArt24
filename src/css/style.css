@@ -70,13 +70,22 @@ footer img {
     max-width: 100;
 }
 
-footer button {
-    background-color: white;
-    color: black;
+.buttonfooter:hover {
+    outline-color: rgb(30, 99, 245) !important;
+    background-color: black;
+}
+.buttonfooter {
+    background-color: black;
+    color: white;
     border: none;
     padding: 8px 16px;
     cursor: pointer;
-    font-size: 14px;
+    height: 47px;
+    width: 167px;
+    border-radius: 15px !important; 
+    outline: 2px solid #fff !important;
+    font-family: 'Nohemi-Regular';
+    font-size: 18px;
 }
 
 h1 {
@@ -114,17 +123,23 @@ p {
     margin: 30px;
 }
 
-button {
-    background-color: #008CBA;
+.buttongen {
+    background-color: rgb(30, 99, 245);
     color: white;
     padding: 10px 20px;
+    font-family: 'Nohemi-Regular';
     font-size: 18px;
     border: none;
     cursor: pointer;
+    border-radius: 15px !important; 
+    height: 58px;
+    width: 167px;
 }
 
+
+
 button:hover {
-    background-color: #005684;
+    background-color: rgb(24, 79, 197)
 }
 
 
@@ -201,4 +216,50 @@ button:hover {
 .article_accueil{
     display: flex;
     justify-content: space-around;
+}
+
+
+/*Inscription */
+
+.Inscription{
+    #modal{
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+    }
+    #modal.open{
+        display: block;
+    }
+    #modal .mask{
+        background: black;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    #modal .container{
+        position: relative;
+        background: white;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 300px;
+        height: auto;
+        min-height: 50px;
+    }
+
+    #modal .container .message{
+        padding: 5% 15% 5% 5%;
+    }
+
+    
+    border-radius: 20px;
+
 }

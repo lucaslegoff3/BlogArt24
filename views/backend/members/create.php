@@ -1,68 +1,7 @@
 <?php
 include '../../../header.php';
 
-if (isset($_POST["pseudo"], $_POST["password"], $_POST["confirm_password"], $_POST["prenom"], $_POST["nom"], $_POST["email"], $_POST["confirm_email"], $_POST["accord"])) {
-    $pseudoMemb = $_POST["pseudo"];
-    $passMemb = $_POST["password"];
-    $confirmPassMemb = $_POST["confirm_password"];
-    $prenomMemb = $_POST["prenom"];
-    $nomMemb = $_POST["nom"];
-    $eMailMemb = $_POST["email"];
-    $confirmEmailMemb = $_POST["confirm_email"];
-    $accordMemb = $_POST["accord"];
-    $dtCreaMemb = date("Y-m-d H:i:s");
 
-    if (!empty($pseudoMemb) && !empty($passMemb) && !empty($confirmPassMemb) && !empty($prenomMemb) && !empty($nomMemb) && !empty($eMailMemb) && !empty($confirmEmailMemb) && !empty($accordMemb)) {
-        if (strlen($passMemb) >= 8 && strlen($passMemb) <= 15 && preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,15}$/", $passMemb)) {
-            if ($passMemb === $confirmPassMemb) {
-                if ($eMailMemb === $confirmEmailMemb) {
-                    $checkPseudoQuery = $bdd->prepare("SELECT COUNT(*) FROM membre WHERE pseudoMemb = :pseudo");
-                    $checkPseudoQuery->bindValue(":pseudo", $pseudoMemb, PDO::PARAM_STR);
-                    $checkPseudoQuery->execute();
-                    $pseudoExists = $checkPseudoQuery->fetchColumn();
-                    $checkEmailQuery = $bdd->prepare("SELECT COUNT(*) FROM membre WHERE eMailMemb = :email");
-                    $checkEmailQuery->bindValue(":email", $eMailMemb, PDO::PARAM_STR);
-                    $checkEmailQuery->execute();
-                    $emailExists = $checkEmailQuery->fetchColumn();
-                    if ($pseudoExists) {
-                        echo "Ce pseudo est déjà utilisé.";
-                    } elseif ($emailExists) {
-                        echo "Cet email est déjà utilisé.";
-                    } else {
-                        $passMemb_sha1 = sha1($passMemb);
-                        $numStat = 3;
-                        $dtMajMemb = null;
-                        $request = $bdd->prepare("INSERT INTO membre (prenomMemb, nomMemb, pseudoMemb, passMemb, eMailMemb, dtCreaMemb, accordMemb, numStat, dtMajMemb) VALUES (:prenom, :nom, :pseudo, :password, :email, :dtCreaMemb, :accord, :numStat, :dtMajMemb)");
-                        $request->bindValue(":prenom", $prenomMemb, PDO::PARAM_STR);
-                        $request->bindValue(":nom", $nomMemb, PDO::PARAM_STR);
-                        $request->bindValue(":pseudo", $pseudoMemb, PDO::PARAM_STR);
-                        $request->bindValue(":password", $passMemb_sha1, PDO::PARAM_STR);
-                        $request->bindValue(":email", $eMailMemb, PDO::PARAM_STR);
-                        $request->bindValue(":dtCreaMemb", $dtCreaMemb, PDO::PARAM_STR);
-                        $request->bindValue(":accord", $accordMemb, PDO::PARAM_INT);
-                        $request->bindValue(":numStat", $numStat, PDO::PARAM_INT);
-                        $request->bindValue(":dtMajMemb", $dtMajMemb, PDO::PARAM_STR);
-                        $request->execute();
-                        if ($request->rowCount() > 0) {
-                            header("Location: login.php");
-                            exit();
-                        } else {
-                            echo "Erreur lors de l'enregistrement du mot de passe.";
-                        }
-                    }
-                } else {
-                    echo "Les adresses email ne correspondent pas.";
-                }
-            } else {
-                echo "Les mots de passe ne correspondent pas.";
-            }
-        } else {
-            echo "Le mot de passe doit faire entre 8 et 15 caractères et contenir au moins une majuscule, une minuscule, un chiffre et un caractère spécial.";
-        }
-    } else {
-        echo "Veuillez remplir tous les champs du formulaire.";
-    }
-}
 
 ?>
 <html>
@@ -70,13 +9,13 @@ if (isset($_POST["pseudo"], $_POST["password"], $_POST["confirm_password"], $_PO
 <head>
     <meta charset="UTF-8">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="preload" href="code.js" as="script">
-    <script src="code.js" preload></script>
+    <link rel="preload" href="members.js" as="script">
+    <script src="members.js" preload></script>
 </head>
 
 <body>
-    <h1>S’INSCRIRE</h1>
-    <form action="" method="post" style="padding: 2vw;">
+    <h1>Création nouveau membre</h1>
+    <form action="../../../api/articles/update.php" method="post" style="padding: 2vw;">
         <div class="form-group">
             <label for="pseudo">Pseudonyme (non modifiable)</label>
             <input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Pseudo">

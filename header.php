@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LSART</title>
-    <!-- Load CSS -->
-    <link href="src/css/style.css" rel="stylesheet" type="text/css">
-    <!-- Bootstrap CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-    <link rel="shortcut icon" type="image/x-icon" href="./src/images/Logo_LSART_Google.webp" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LSART</title>
+  <link href="src/css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="shortcut icon" type="image/x-icon" href="./src/images/Logo_LSART_Google.webp" />
 </head>
 <?php
-//load config
 require_once 'config.php';
 ?>
+
 <body>
 <nav id="navbar" class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
@@ -51,7 +50,6 @@ require_once 'config.php';
       </div>
       </form>
       <a id="connexion" class="btn btn-primary m-1" href="/views/backend/security/login.php" role="button">Connexion</a>
-      <a id="connexion" class="btn btn-primary m-1" href="/views/backend/security/login.php" role="button">Inscription</a>
     </div>
   </div>
 </nav>

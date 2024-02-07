@@ -10,32 +10,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $pseudo = $_POST["pseudonyme"];
         $password = sha1($_POST["mot_de_passe"]);
 
-        $sql = "SELECT * FROM /* ... */ WHERE password = :mot_de_passe AND pseudo = :pseudo";
-        $stmt = $DB->prepare($sql);
+        $sql = "SELECT * FROM inscription WHERE password = :mot_de_passe AND pseudo = :pseudo";
+        $stmt = $bdd->prepare($sql);
         $stmt->execute(['pseudo' => $pseudo, 'mot_de_passe' => $password]);
         $user = $stmt->fetch();
 
         if ($user) {
-            $_SESSION["pseudonyme"] = $pseudo;
-
-            $code_cookie = password_hash(uniqid(), PASSWORD_DEFAULT);
-            var_dump($code_cookie); 
-            if ($se_souvenir) {
-                setcookie("code_cookie", $code_cookie, time() + (30 * 24 * 3600));
-            }
-
-            $sql = "UPDATE /* ... */ SET code_cookie = :code_cookie WHERE pseudo = :pseudo";
-            $stmt = $DB->prepare($sql);
-            $stmt->execute(['pseudo' => $pseudo, 'code_cookie' => $code_cookie]);
-
-            if ($se_souvenir) {
-                echo "Cookie défini !";
+            if($user["code_email"] != null){
+                echo "L'utilisateur n'a pas activé son compte par email";
             } else {
-                echo "Cookie non défini !";
-            }            
+                $_SESSION["pseudonyme"] = $pseudo;
 
-            header("Location: accueil.php");
-            exit();
+                $code_cookie = password_hash(uniqid(), PASSWORD_DEFAULT);
+                var_dump($code_cookie); 
+                if ($se_souvenir) {
+                    setcookie("code_cookie", $code_cookie, time() + (30 * 24 * 3600));
+                }
+    
+                $sql = "UPDATE inscription SET code_cookie = :code_cookie WHERE pseudo = :pseudo";
+                $stmt = $bdd->prepare($sql);
+                $stmt->execute(['pseudo' => $pseudo, 'code_cookie' => $code_cookie]);
+    
+                if ($se_souvenir) {
+                    echo "Cookie défini !";
+                } else {
+                    echo "Cookie non défini !";
+                }            
+    
+                header("Location: ../../../header.php");
+                exit();
+            }
+           
         } else {
             echo "Pseudonyme ou mot de passe incorrect.";
         }

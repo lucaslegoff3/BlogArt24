@@ -3,6 +3,10 @@ include '../../../header.php'; // contains the header and call to config.php
 
 //Load all comments
 $commentaires = sql_select("COMMENT", "*");
+
+$commentaires = sql_select("comment 
+                    INNER JOIN membre ON comment.numMemb = membre.numMemb
+                    INNER JOIN article ON comment.numArt = article.numArt", "*");
 ?>
 
 <!-- Bootstrap default layout to display all comments in foreach -->
@@ -21,8 +25,8 @@ $commentaires = sql_select("COMMENT", "*");
                         <th>Justification modération si ! visible</th>
                         <th>Date supprimé commentaire</th>
                         <th>Supression logique</th>
-                        <th>Numéro Article</th>
-                        <th>Numéro Membre</th>
+                        <th>Nom de l'Article</th>
+                        <th>Pseudo Membre</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -37,8 +41,8 @@ $commentaires = sql_select("COMMENT", "*");
                             <td><?php echo($commentaire['notifComKOAff']); ?></td>
                             <td><?php echo($commentaire['dtDelLogCom']); ?></td>
                             <td><?php echo($commentaire['delLogiq']); ?></td>
-                            <td><?php echo($commentaire['numArt']); ?></td>
-                            <td><?php echo($commentaire['numMemb']); ?></td>
+                            <td><?php echo($commentaire['libTitrArt']); ?></td>
+                            <td><?php echo($commentaire['pseudoMemb']); ?></td>
                             <td>
                                 <a href="edit.php?numStat=<?php echo($statut['numCom']); ?>" class="btn btn-primary">Edit</a>
                                 <a href="delete.php?numStat=<?php echo($statut['numCom']); ?>" class="btn btn-danger">Delete</a>
