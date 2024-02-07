@@ -6,6 +6,6 @@ $libThem = ctrlSaisies($_POST['libThem']);
 $numThem = ctrlSaisies($_POST['numThem']);
 
 
-sql_update('THEMATIQUE', 'libThem ="'. $libThem .'"', 'numThem =' . $numThem);
+sql_update('THEMATIQUE', 'libThem ="' . $libThem . '"', 'numThem =' . $numThem);
 
 header('Location: ../../views/backend/thematiques/list.php');

@@ -55,3 +55,4 @@ require_once 'config.php';
       </div>
     </div>
   </nav>
+  <hr>

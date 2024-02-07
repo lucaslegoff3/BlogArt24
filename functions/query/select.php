@@ -1,35 +1,36 @@
 <?php
 // select 1 or all instances
-function sql_select($table, $attributs = '*', $where = null, $order = null, $limit = null){
+function sql_select($table, $attributs = '*', $where = null, $order = null, $limit = null)
+{
     global $DB;
 
     //connect to database
-    if(!$DB){
+    if (!$DB) {
         sql_connect();
     }
 
     //no prepare query for PDO
     $query = "SELECT " . $attributs . " FROM $table";
-    if($where){
+    if ($where) {
         $query .= " WHERE $where";
     }
-    if($order){
+    if ($order) {
         $query .= " ORDER BY $order";
     }
-    if($limit){
+    if ($limit) {
         $query .= " LIMIT $limit";
     }
 
     $result = $DB->query($query);
-    
+
     $error = $DB->errorInfo();
-    if($error[0] != 0){
+    if ($error[0] != 0) {
         echo "Error: " . $error[2];
-    }else{
+    } else {
         $result = $result->fetchAll();
     }
 
-    if(!$result){
+    if (!$result) {
         $result = array();
     }
 

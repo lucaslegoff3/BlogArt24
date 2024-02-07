@@ -16,31 +16,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $user = $stmt->fetch();
 
         if ($user) {
-            if($user["code_email"] != null){
+            if ($user["code_email"] != null) {
                 echo "L'utilisateur n'a pas activé son compte par email";
             } else {
                 $_SESSION["pseudonyme"] = $pseudo;
 
                 $code_cookie = password_hash(uniqid(), PASSWORD_DEFAULT);
-                var_dump($code_cookie); 
+                var_dump($code_cookie);
                 if ($se_souvenir) {
                     setcookie("code_cookie", $code_cookie, time() + (30 * 24 * 3600));
                 }
-    
+
                 $sql = "UPDATE inscription SET code_cookie = :code_cookie WHERE pseudo = :pseudo";
                 $stmt = $bdd->prepare($sql);
                 $stmt->execute(['pseudo' => $pseudo, 'code_cookie' => $code_cookie]);
-    
+
                 if ($se_souvenir) {
                     echo "Cookie défini !";
                 } else {
                     echo "Cookie non défini !";
-                }            
-    
+                }
+
                 header("Location: ../../../header.php");
                 exit();
             }
-           
         } else {
             echo "Pseudonyme ou mot de passe incorrect.";
         }
@@ -52,9 +51,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html style=text-align:center>
+
 <head>
     <title>Connexion</title>
 </head>
+
 <body>
     <h1>Connexion</h1>
     <form action="login.php" method="post">
@@ -64,4 +65,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="submit" name="envoyer" value="Envoyer">
     </form>
 </body>
+
 </html>

@@ -1,5 +1,5 @@
 <?php
-include '../../../header.php'; 
+include '../../../header.php';
 
 $statuts = sql_select("STATUT", "*");
 ?>
@@ -16,13 +16,13 @@ $statuts = sql_select("STATUT", "*");
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($statuts as $statut){ ?>
+                    <?php foreach ($statuts as $statut) { ?>
                         <tr>
-                            <td><?php echo($statut['numStat']); ?></td>
-                            <td><?php echo($statut['libStat']); ?></td>
+                            <td><?php echo ($statut['numStat']); ?></td>
+                            <td><?php echo ($statut['libStat']); ?></td>
                             <td>
-                                <a href="edit.php?numStat=<?php echo($statut['numStat']); ?>" class="btn btn-primary">Edit</a>
-                                <a href="delete.php?numStat=<?php echo($statut['numStat']); ?>" class="btn btn-danger">Delete</a>
+                                <a href="edit.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-primary">Edit</a>
+                                <a href="delete.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>

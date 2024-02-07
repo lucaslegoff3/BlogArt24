@@ -7,4 +7,3 @@ $numArt = ctrlSaisies($_POST['numArt']);
 sql_delete('ARTICLES', "numArt = $numArt");
 
 header('Location: ../../views/backend/articles/list.php');
-?>

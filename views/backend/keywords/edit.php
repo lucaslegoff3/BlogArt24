@@ -1,7 +1,7 @@
 <?php
 include '../../../header.php';
 
-if(isset($_GET['numMotCle'])){
+if (isset($_GET['numMotCle'])) {
     $numMotCle = $_GET['numMotCle'];
     $result = sql_select("MOTCLE", "libMotCle", "numMotCle = $numMotCle");
     if (!empty($result)) {

@@ -31,21 +31,21 @@ $commentaires = sql_select("comment
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($commentaires as $commentaire){ ?>
+                    <?php foreach ($commentaires as $commentaire) { ?>
                         <tr>
-                            <td><?php echo($commentaire['numCom']); ?></td>
-                            <td><?php echo($commentaire['dtCreaCom']); ?></td>
-                            <td><?php echo($commentaire['libCom']); ?></td>
-                            <td><?php echo($commentaire['dtModCom']); ?></td>
-                            <td><?php echo($commentaire['attModOK']); ?></td>
-                            <td><?php echo($commentaire['notifComKOAff']); ?></td>
-                            <td><?php echo($commentaire['dtDelLogCom']); ?></td>
-                            <td><?php echo($commentaire['delLogiq']); ?></td>
-                            <td><?php echo($commentaire['libTitrArt']); ?></td>
-                            <td><?php echo($commentaire['pseudoMemb']); ?></td>
+                            <td><?php echo ($commentaire['numCom']); ?></td>
+                            <td><?php echo ($commentaire['dtCreaCom']); ?></td>
+                            <td><?php echo ($commentaire['libCom']); ?></td>
+                            <td><?php echo ($commentaire['dtModCom']); ?></td>
+                            <td><?php echo ($commentaire['attModOK']); ?></td>
+                            <td><?php echo ($commentaire['notifComKOAff']); ?></td>
+                            <td><?php echo ($commentaire['dtDelLogCom']); ?></td>
+                            <td><?php echo ($commentaire['delLogiq']); ?></td>
+                            <td><?php echo ($commentaire['libTitrArt']); ?></td>
+                            <td><?php echo ($commentaire['pseudoMemb']); ?></td>
                             <td>
-                                <a href="edit.php?numStat=<?php echo($statut['numCom']); ?>" class="btn btn-primary">Edit</a>
-                                <a href="delete.php?numStat=<?php echo($statut['numCom']); ?>" class="btn btn-danger">Delete</a>
+                                <a href="edit.php?numStat=<?php echo ($statut['numCom']); ?>" class="btn btn-primary">Edit</a>
+                                <a href="delete.php?numStat=<?php echo ($statut['numCom']); ?>" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>

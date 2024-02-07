@@ -10,7 +10,8 @@ sql_insert('ARTICLES', 'libArt', $libArt);
 header('Location: ../../views/backend/articles/list.php');
 
 
-function verifierMotDePasse($motDePasse) {
+function verifierMotDePasse($motDePasse)
+{
     $taille = strlen($motDePasse) >= 8 && strlen($motDePasse) <= 15;
     $majuscule = preg_match('/[A-Z]/', $motDePasse);
     $minuscule = preg_match('/[a-z]/', $motDePasse);
@@ -82,5 +83,3 @@ if (isset($_POST["pseudo"], $_POST["password"], $_POST["confirm_password"], $_PO
         echo "Veuillez remplir tous les champs du formulaire.";
     }
 }
-
-?>

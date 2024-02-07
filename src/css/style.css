@@ -10,40 +10,44 @@ body {
 @font-face {
     font-family: 'Minal';
     src: url('../font/Minal.woff2') format('woff2');
-  }
+}
 
 @font-face {
     font-family: 'Nohemi-Bold';
     src: url('../font/Nohemi-Bold.woff2') format('woff2');
-  }
+}
 
 @font-face {
     font-family: 'Nohemi-Light';
     src: url('../font/Nohemi-Light.woff2') format('woff2');
-  }
+}
 
 @font-face {
     font-family: 'Nohemi-Medium';
     src: url('../font/Nohemi-Medium.woff2') format('woff2');
-  }
+}
 
 @font-face {
     font-family: 'Nohemi-Regular';
     src: url('../font/Nohemi-Regular.woff2') format('woff2');
-  }
+}
 
 h1 {
     font-family: 'Minal';
 }
+
 h2 {
     font-family: 'Nohemi-Medium';
 }
+
 h3 {
     font-family: 'Nohemi-Regular';
 }
+
 h4 {
     font-family: 'Nohemi-Regular';
 }
+
 p {
     font-family: 'Nohemi-Regular';
 }
@@ -52,7 +56,7 @@ a {
     font-family: 'Nohemi-Regular';
 }
 
-.accueil1{
+.accueil1 {
     border-radius: 5px;
     height: 530px;
     left: 64px;
@@ -60,7 +64,7 @@ a {
     width: 1152px;
 }
 
-.accueil2{
+.accueil2 {
     border-radius: 5px;
     height: 341px;
     left: 64px;
@@ -99,6 +103,7 @@ footer h5 {
     outline-color: rgb(30, 99, 245) !important;
     background-color: black;
 }
+
 .buttonfooter {
     background-color: black;
     color: white;
@@ -107,7 +112,7 @@ footer h5 {
     cursor: pointer;
     height: 47px;
     width: 167px;
-    border-radius: 15px !important; 
+    border-radius: 15px !important;
     outline: 2px solid #fff !important;
     font-family: 'Nohemi-Regular';
     font-size: 18px;
@@ -116,19 +121,24 @@ footer h5 {
 h1 {
     font-family: 'Minal'
 }
+
 h2 {
     font-family: 'Nohemi-Medium'
 }
+
 h3 {
     font-family: 'Nohemi-Regular'
 }
+
 h4 {
     font-family: 'Nohemi-Regular'
 }
+
 p {
     font-family: 'Nohemi-Regular'
 }
-.equipe{
+
+.equipe {
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -144,7 +154,7 @@ p {
     color: white;
 }
 
-.accueil{
+.accueil {
     margin: 30px;
 }
 
@@ -156,7 +166,7 @@ p {
     font-size: 18px;
     border: none;
     cursor: pointer;
-    border-radius: 15px !important; 
+    border-radius: 15px !important;
     height: 58px;
     width: 167px;
 }
@@ -167,14 +177,17 @@ button:hover {
     background-color: rgb(24, 79, 197)
 }
 
+.barre {
+    margin: 5%;
+}
 
 /* EQUIPE */
 
-.tete_equipe{
+.tete_equipe {
     width: 17em;
 }
 
-.equipeetcause{
+.equipeetcause {
     margin: 5em 20em 5em 20em;
 }
 
@@ -189,11 +202,11 @@ button:hover {
     max-width: 25px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     text-decoration: underline;
 }
 
-#navbar{
+#navbar {
     background-color: white !important;
     padding: 20px;
     display: flex;
@@ -207,7 +220,7 @@ button:hover {
 
 .nav-item {
     display: flex !important;
-    justify-content: center!important;
+    justify-content: center !important;
     padding-left: 50px !important;
 }
 
@@ -238,12 +251,12 @@ button:hover {
 
 /* ACCUEIL */
 
-.article_accueil{
+.article_accueil {
     display: flex;
     justify-content: space-around;
 }
 
-.qui_sommes_nous{
+.qui_sommes_nous {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -258,19 +271,19 @@ button:hover {
 
 /* EVENEMENTS */
 
-.arti1{
+.arti1 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
 
-.arti2{
+.arti2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
 
-.carroussel{
+.carroussel {
     display: flex;
     justify-content: space-around;
 }

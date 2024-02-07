@@ -7,4 +7,3 @@ $numCom = ctrlSaisies($_POST['numCom']);
 sql_delete('COMMENTS', "numCom = $numCom");
 
 header('Location: ../../views/backend/comments/list.php');
-?>
