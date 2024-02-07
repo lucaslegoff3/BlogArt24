@@ -1,5 +1,6 @@
 <?php
 include '../../../header.php';
+include '../../../api/articles/create.php';
 
 
 
@@ -15,7 +16,7 @@ include '../../../header.php';
 
 <body>
     <h1>Création nouveau membre</h1>
-    <form action="../../../api/articles/update.php" method="post" style="padding: 2vw;">
+    <form action="../../../api/articles/create.php" method="post" style="padding: 2vw;">
         <div class="form-group">
             <label for="pseudo">Pseudonyme (non modifiable)</label>
             <input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Pseudo">
