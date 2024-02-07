@@ -129,3 +129,57 @@ button:hover {
 .equipeetcause{
     margin: 5em 20em 5em 20em;
 }
+
+/* HEADER */
+
+#logo_header {
+    width: 95px;
+    height: 59px;
+}
+
+#picto_loupe {
+    max-width: 25px;
+}
+
+#navbar{
+    background-color: white !important;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.nav-link {
+    margin: 30px;
+    display: flex;
+}
+
+.nav-item {
+    display: flex !important;
+    justify-content: center!important;
+    padding-left: 50px !important;
+}
+
+#connexion {
+    background-color: white !important;
+    border-color: white !important;
+    color: black !important;
+    justify-content: center !important;
+}
+
+.search_bar {
+    border-radius: 20px !important;
+    background-color: white !important;
+    border: 1px solid black !important;
+}
+
+.search_icon {
+    background: none !important;
+    border: none !important;
+
+}
+
+.search_input {
+    background: none !important;
+    border: none !important;
+    color: black !important;
+}
