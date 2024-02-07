@@ -10,6 +10,7 @@
 <body>
     <div class="formulaire">
         <H1 class="inscrivezvous">Contactez-nous !</H1>
+        <hr>
     </div>
     <!-------------------------------- Ligne à rjt CSS ------------------------------------------->
     <div id="modal">
