@@ -74,7 +74,9 @@ function envoyerMail($email, $code_activation){
     //mail($to, $subject, $message, $headers);
 }
 ?>
-
+<html>
+<body style=text-align:center>
+    
 
     <h1>Inscription</h1>
     <form id="recaptcha" action="signup.php" method="post">
