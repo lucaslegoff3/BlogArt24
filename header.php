@@ -54,5 +54,7 @@ require_once 'config.php';
         <a id="connexion" class="btn btn-primary m-1" href="/views/frontend/connexion.php" role="button">Connexion</a>
       </div>
     </div>
+    <a id="connexion" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Connexion</a>
+        <a id="inscription" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Inscription</a>
   </nav>
   <hr>
