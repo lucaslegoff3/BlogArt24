@@ -1,6 +1,7 @@
 <?php
 //PDO connection
-function sql_connect(){
+function sql_connect()
+{
     global $DB;
 
     //connect BDD with PDO using SQL_HOST, SQL_USER, SQL_PWD, SQL_DB

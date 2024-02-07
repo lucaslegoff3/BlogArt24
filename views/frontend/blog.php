@@ -5,12 +5,14 @@ sql_connect();
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>blog</title>
 </head>
+
 <body>
     <div>
         <img src="img_blog.webp">
@@ -41,20 +43,16 @@ sql_connect();
         <a class="nav-link active" href="/">en savoir plus</a>
     </div>
     <div class="commentaires">
-    <h2>Commentaires</h2>
-    <div id="comments-list"></div>
-    <img src="utilisateur.webp">
-    <h3>Utilisateur</h3>
-    <form id="comment-form">
-      <textarea
-        name="textarea"
-        rows="5"
-        cols="30"
-        placeholder="insérer un commentaire"></textarea>
-      <button type="submit">envoyer</button>
-    </form>
-  </div>
-    
+        <h2>Commentaires</h2>
+        <div id="comments-list"></div>
+        <img src="utilisateur.webp">
+        <h3>Utilisateur</h3>
+        <form id="comment-form">
+            <textarea name="textarea" rows="5" cols="30" placeholder="insérer un commentaire"></textarea>
+            <button type="submit">envoyer</button>
+        </form>
+    </div>
+
 
 </body>
 

@@ -50,10 +50,6 @@ require_once 'config.php';
         </span>
         <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
       </div>
-      </form>
-      <a id="connexion" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Connexion</a>
-      <a id="inscription" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Inscription</a>
     </div>
-  </div>
-</nav>
-<hr>
+  </nav>
+  <hr>

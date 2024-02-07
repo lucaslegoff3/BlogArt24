@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once 'header.php';
 sql_connect();
 ?>
@@ -25,8 +25,8 @@ sql_connect();
 <hr>
 <section class="qui_sommes_nous">
     <h2>Qui sommes nous ?</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel nulla et ducimus blanditiis aut sint 
-        numquam ullam perspiciatis, culpa exercitationem enim unde voluptas, totam repellat laborum obcaecati. 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel nulla et ducimus blanditiis aut sint
+        numquam ullam perspiciatis, culpa exercitationem enim unde voluptas, totam repellat laborum obcaecati.
         Quasi, ullam.</p>
     <h6>en savoir plus</h6>
 </section>

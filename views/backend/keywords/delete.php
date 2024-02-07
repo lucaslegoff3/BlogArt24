@@ -1,7 +1,7 @@
 <?php
 include '../../../header.php';
 
-if(isset($_GET['numMotCle'])){
+if (isset($_GET['numMotCle'])) {
     $numMotCle = $_GET['numMotCle'];
     $libMotCle = sql_select("MOTCLE", "libMotCle", "numMotCle = $numMotCle")[0]['libMotCle'];
 }
@@ -18,8 +18,8 @@ if(isset($_GET['numMotCle'])){
             <form action="<?php echo ROOT_URL . '/api/keywords/delete.php' ?>" method="post">
                 <div class="form-group">
                     <label for="libMotCle">Mot Clé</label>
-                    <input id="numMotCle" name="numMotCle" class="form-control" style="display: none" type="text" value="<?php echo($numMotCle); ?>" readonly="readonly" />
-                    <input id="libMotCle" name="libMotCle" class="form-control" type="text" value="<?php echo($libMotCle); ?>" readonly="readonly" disabled />
+                    <input id="numMotCle" name="numMotCle" class="form-control" style="display: none" type="text" value="<?php echo ($numMotCle); ?>" readonly="readonly" />
+                    <input id="libMotCle" name="libMotCle" class="form-control" type="text" value="<?php echo ($libMotCle); ?>" readonly="readonly" disabled />
                 </div>
                 <br />
                 <div class="form-group mt-2">
