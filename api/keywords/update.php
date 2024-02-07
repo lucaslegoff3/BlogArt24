@@ -6,6 +6,6 @@ $libMotCle = ctrlSaisies($_POST['libMotCle']);
 $numMotCle = ctrlSaisies($_POST['numMotCle']);
 
 
-sql_update('MOTCLE', 'libMotCle ="'. $libMotCle .'"', 'numMotCle =' . $numMotCle);
+sql_update('MOTCLE', 'libMotCle ="' . $libMotCle . '"', 'numMotCle =' . $numMotCle);
 
 header('Location: ../../views/backend/keywords/list.php');

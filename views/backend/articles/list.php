@@ -32,25 +32,25 @@ $articles = sql_select("article INNER JOIN thematique ON article.numThem = thema
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($articles as $article){ ?>
+                    <?php foreach ($articles as $article) { ?>
                         <tr>
-                            <td><?php echo($article['numArt']); ?></td>
-                            <td><?php echo($article['dtCreaArt']); ?></td>
-                            <td><?php echo($article['dtMajArt']); ?></td>
-                            <td><?php echo($article['libTitrArt']); ?></td>
-                            <td><?php echo($article['libChapoArt']); ?></td>
-                            <td><?php echo($article['libAccrochArt']); ?></td>
-                            <td><?php echo($article['parag1Art']); ?></td>
-                            <td><?php echo($article['libSsTitr1Art']); ?></td>
-                            <td><?php echo($article['parag2Art']); ?></td>
-                            <td><?php echo($article['libSsTitr2Art']); ?></td>
-                            <td><?php echo($article['parag3Art']); ?></td>
-                            <td><?php echo($article['libConclArt']); ?></td>
+                            <td><?php echo ($article['numArt']); ?></td>
+                            <td><?php echo ($article['dtCreaArt']); ?></td>
+                            <td><?php echo ($article['dtMajArt']); ?></td>
+                            <td><?php echo ($article['libTitrArt']); ?></td>
+                            <td><?php echo ($article['libChapoArt']); ?></td>
+                            <td><?php echo ($article['libAccrochArt']); ?></td>
+                            <td><?php echo ($article['parag1Art']); ?></td>
+                            <td><?php echo ($article['libSsTitr1Art']); ?></td>
+                            <td><?php echo ($article['parag2Art']); ?></td>
+                            <td><?php echo ($article['libSsTitr2Art']); ?></td>
+                            <td><?php echo ($article['parag3Art']); ?></td>
+                            <td><?php echo ($article['libConclArt']); ?></td>
                             <td><img src="../../../src/uploads/<?php echo str_replace("jpg", "png", $article['urlPhotArt']); ?>" alt="Description de l'image" style="max-width: 600px; height: auto;"></td>
-                            <td><?php echo($article['libThem']); ?></td>
+                            <td><?php echo ($article['libThem']); ?></td>
                             <td>
-                                <a href="edit.php?numStat=<?php echo($statut['numStat']); ?>" class="btn btn-primary">Edit</a>
-                                <a href="delete.php?numStat=<?php echo($statut['numStat']); ?>" class="btn btn-danger">Delete</a>
+                                <a href="edit.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-primary">Edit</a>
+                                <a href="delete.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>
@@ -65,5 +65,3 @@ $articles = sql_select("article INNER JOIN thematique ON article.numThem = thema
 
 <?php
 include '../../../footer.php'; // contains the footer
-
-

@@ -7,4 +7,3 @@ $numMemb = ctrlSaisies($_POST['numMemb']);
 sql_delete('MEMBRE', "numMemb = $numMemb");
 
 header('Location: ../../views/backend/members/list.php');
-?>

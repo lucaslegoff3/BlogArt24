@@ -15,7 +15,7 @@ include '../../../header.php';
                     <label for="libStat">Nom du statut</label>
                     <input id="libStat" name="libStat" class="form-control" type="text" autofocus="autofocus" />
                 </div>
-                <br />
+                <br>
                 <div class="form-group mt-2">
                     <button type="submit" class="btn btn-primary">Confirmer create ?</button>
                 </div>

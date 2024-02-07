@@ -23,14 +23,14 @@ $Likes = sql_select("likeart
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($Likes as $Like){ ?>
+                    <?php foreach ($Likes as $Like) { ?>
                         <tr>
-                            <td><?php echo($Like['pseudoMemb']); ?></td>
-                            <td><?php echo($Like['libTitrArt']); ?></td>
-                            <td><?php echo($Like['likeA']); ?></td>
+                            <td><?php echo ($Like['pseudoMemb']); ?></td>
+                            <td><?php echo ($Like['libTitrArt']); ?></td>
+                            <td><?php echo ($Like['likeA']); ?></td>
                             <td>
-                                <a href="edit.php?numMemb=<?php echo($Like['numMemb']); ?>" class="btn btn-primary">Edit</a>
-                                <a href="delete.php?numMemb=<?php echo($Like['numMemb']); ?>" class="btn btn-danger">Delete</a>
+                                <a href="edit.php?numMemb=<?php echo ($Like['numMemb']); ?>" class="btn btn-primary">Edit</a>
+                                <a href="delete.php?numMemb=<?php echo ($Like['numMemb']); ?>" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>

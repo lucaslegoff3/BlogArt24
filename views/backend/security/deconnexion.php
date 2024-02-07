@@ -8,4 +8,3 @@ if (isset($_SESSION["pseudonyme"])) {
 
 header("Location: ../../../header.php");
 exit();
-?>

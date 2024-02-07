@@ -5,7 +5,6 @@ require_once '../../functions/ctrlSaisies.php';
 $libStat = ctrlSaisies($_POST['libStat']);
 $numStat = ctrlSaisies($_POST['numStat']);
 
-
-sql_update('STATUT', 'libStat ="'. $libStat .'"', 'numStat =' . $numStat);
+sql_update('STATUT', 'libStat ="' . $libStat . '"', 'numStat =' . $numStat);
 
 header('Location: ../../views/backend/statuts/list.php');
