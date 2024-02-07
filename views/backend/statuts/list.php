@@ -32,5 +32,8 @@ $statuts = sql_select("STATUT", "*");
         </div>
     </div>
 </div>
+
+<br>
+
 <?php
 include '../../../footer.php';

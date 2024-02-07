@@ -35,5 +35,8 @@ $keyswords = sql_select("MOTCLE", "*");
         </div>
     </div>
 </div>
+
+<br>
+
 <?php
 include '../../../footer.php'; // contains the footer
