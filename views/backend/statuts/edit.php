@@ -24,7 +24,7 @@ if(isset($_GET['numStat'])){
                     <input id="numStat" name="numStat" class="form-control" style="display: none" type="text" value="<?php echo isset($numStat) ? htmlspecialchars($numStat) : ''; ?>" readonly="readonly" />
                     <input id="libStat" name="libStat" class="form-control" type="text" value="<?php echo htmlspecialchars($libStat); ?>" />
                 </div>
-                <br />
+                <br>
                 <div class="form-group mt-2">
                     <button type="submit" class="btn btn-primary">Enregistrer les modifications</button>
                 </div>

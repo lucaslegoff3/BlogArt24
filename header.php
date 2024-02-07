@@ -23,7 +23,7 @@ require_once 'config.php';
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Acceuil</a>
+          <a class="nav-link active" aria-current="page" href="/">Accueil</a>
         </li>
         <li>
         <a class="nav-link active" href="/">Evenements</a>
