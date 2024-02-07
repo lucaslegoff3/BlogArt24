@@ -71,7 +71,7 @@ footer img {
 }
 
 .buttonfooter {
-    background-color: none;
+    background-color: black;
     color: white;
     border: none;
     padding: 8px 16px;
@@ -79,6 +79,7 @@ footer img {
     font-size: 14px;
     height: 47px;
     width: 167px;
+    border-radius: 15px !important; 
     outline: 2px solid #fff !important;
 }
 
