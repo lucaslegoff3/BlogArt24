@@ -1,10 +1,7 @@
 <?php
-
-include("header.php");
-
+include '../../../header.php';
 
 $se_souvenir = isset($_POST["se_souvenir"]);
-
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST["pseudonyme"]) && !empty($_POST["mot_de_passe"])) {
