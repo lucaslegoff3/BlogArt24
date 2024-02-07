@@ -4,14 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSART</title>
-    <!-- Load CSS -->
     <link href="src/css/style.css" rel="stylesheet" type="text/css">
-    <!-- Bootstrap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <link rel="shortcut icon" type="image/x-icon" href="./src/images/Logo_LSART_Google.webp" />
 </head>
 <?php
-//load config
 require_once 'config.php';
 ?>
 <body>
@@ -40,7 +37,6 @@ require_once 'config.php';
         </li>
       </ul>
     </div>
-    <!--right align-->
     <div class="d-flex">
       <form id="search_bar" class="d-flex" role="search">
         <div class="input-group mb-3 search_bar">
