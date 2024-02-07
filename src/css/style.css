@@ -71,12 +71,15 @@ footer img {
 }
 
 footer button {
-    background-color: white;
-    color: black;
+    background-color: none;
+    color: white;
     border: none;
     padding: 8px 16px;
     cursor: pointer;
     font-size: 14px;
+    height: 47px;
+    width: 167px;
+    outline: 2px solid #fff !important;
 }
 
 h1 {
@@ -125,6 +128,8 @@ button {
     height: 58px;
     width: 167px;
 }
+
+
 
 button:hover {
     background-color: rgb(24, 79, 197)
