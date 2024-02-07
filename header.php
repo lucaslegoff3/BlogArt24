@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSART</title>
     <!-- Load CSS -->
-    <link rel="stylesheet" href="src/css/style.css" />
+    <link href="src/css/style.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <link rel="shortcut icon" type="image/x-icon" href="./src/images/Logo_LSART_Google.webp" />
@@ -15,9 +15,9 @@
 require_once 'config.php';
 ?>
 <body>
-<nav class="navbar navbar-expand-lg bg-light">
+<nav id="navbar" class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <img src="./src/images/LS_logo_noir.webp" alt="Logo LSART">
+    <img src="./src/images/LS_logo_noir.webp" alt="Logo LSART" id="logo_header" class="logo_header">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,15 +42,15 @@ require_once 'config.php';
     </div>
     <!--right align-->
     <div class="d-flex">
-      <form class="d-flex" role="search">
-        <div class="input-group mb-3">
-        <span class="input-group-text">
-        <img src="./src/images/search.png" alt="Pictogramme loupe">
+      <form id="search_bar" class="d-flex" role="search">
+        <div class="input-group mb-3 search_bar">
+        <span class="input-group-text search_icon">
+        <img src="./src/images/search.png" alt="Pictogramme loupe" id="picto_loupe">
         </span>
-        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+        <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
       </div>
       </form>
-      <a class="btn btn-primary m-1" href="/views/backend/security/login.php" role="button">Connexion</a>
+      <a id="connexion" class="btn btn-primary m-1" href="/views/backend/security/login.php" role="button">Connexion</a>
     </div>
   </div>
 </nav>
