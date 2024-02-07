@@ -210,3 +210,11 @@ button:hover {
     display: flex;
     justify-content: space-around;
 }
+
+
+/*Inscription */
+
+.Inscription{
+    border-radius: 20px;
+
+}
