@@ -167,6 +167,9 @@ button:hover {
     background-color: rgb(24, 79, 197)
 }
 
+.barre{
+    margin: 5%;
+}
 
 /* EQUIPE */
 
@@ -341,6 +344,27 @@ button:hover {
     background-color:  rgba(30, 99, 245, 1);
     border-color: rgba(30, 99, 245, 1);
     color: #fff;
+}
+
+/* ARTICLE 1 */
+
+.article_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.article{
+    margin: auto;
+    width: 60%;
+}
+
+/* CGU */
+
+.cgu{
+    width: 60%;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 

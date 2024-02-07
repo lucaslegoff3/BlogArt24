@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscription</title>
+    <title>Connexion</title>
 </head>
 
 <body>
@@ -13,25 +13,36 @@
 
     <!-------------------------------- Ligne à rjt CSS ------------------------------------------->
 
-    <div class="Nom_prenom_mail">
-        <!-------------------------------- rajt rectangles nom + prenom + mail ------------------------------------------->
-        <!-------------------------------- Mettre mots dans rectangles ------------------------------------------->
-        Nom
-        Prénom
+    <div class="mail">
+        <H2>E-Mail</H2>
+        <!-------------------------------- rjt rectangle Mail avec texte ------------------------------------------->
         Email
     </div>
 
-    <div class="Message">
-        <H2>Message</H2>
-        <!-------------------------------- rajt rectangle "Objet du msg" + txt ------------------------------------------->
-        Objet du Message
+    <div class="mdp">
+        <H2>Mot de passe</H2>
 
-        <!-------------------------------- rajt rectangle "Votre message" + txt  ------------------------------------------->
-        Votre message...
+        <!-------------------------------- rjt rectangle mdp avec texte ------------------------------------------->
+        Mot de passe
+        <!-------------------------------- rjt carré afficher mdp + mettre txt "afficher mdp" à gauche ------------------------------------------->
+        Afficher le mot de passe
     </div>
 
-    <!-------------------------------- rajt rectangle "formulaire" + txt ------------------------------------------->
-    Envoyer formulaire
+    <!-------------------------------- rjt rectangle Connexion + txt ------------------------------------------->
+    Se connecter
+
+    <div class="mdp oublié">
+        <!-------------------------------- rjt rond flêche ------------------------------------------->
+        Mot de passe oublié ?
+    </div>
+
+    <!-------------------------------- Ligne à rjt CSS ------------------------------------------->
+
+    <H3>Vous n'êtes pas encore inscrit ?</H3>
+    <div class="Inscription">
+        <!-------------------------------- rjt rond flêche ------------------------------------------->
+        Inscrivez-vous ici
+    </div>
 
 </body>
 

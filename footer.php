@@ -3,7 +3,7 @@
 </body>
 <footer>
 	<div>
-		<img src="src/images/LS_logo_blanc.webp">
+		<img src="<?php echo ROOT_URL; ?>/src/images/LS_logo_blanc.webp">
 		<p>LS'Art © 2024</p>
 	</div>	
 	<div>
@@ -24,7 +24,7 @@
 	<div>
 		<h5>Nous suivre</h5>
 		<p>S'abonner à la Newsletter</p>
-		<button class=buttonfooter>Nous contacter</button>
+		<button class=buttonfooter action="<?php echo ROOT_URL; ?>/views/frontend/contacte.php">Nous contacter</button>
 	</div>
 
 </footer>

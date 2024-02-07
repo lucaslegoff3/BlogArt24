@@ -1,7 +1,8 @@
-<?php 
-require_once '../../header.php';
-sql_connect();
+<?php
+include("../../header.php")
 ?>
+
+<section class="cgu">
 
     <h1>Mentions légales</h1>
     <br>
@@ -68,7 +69,33 @@ sql_connect();
     <br>
     Nous croyons en l'importance de favoriser un environnement inclusif et collaboratif, où la valeur de chaque contribution individuelle s'exprime dans le succès collectif de notre entreprise.
 
-
+</section>
 </body>
+<footer>
+  <div>
+    <img src="../../src/images/LS_logo_blanc.webp">
+    <p>LS'Art © 2024</p>
+  </div>
+  <div>
+    <h5>Plan du site</h5>
+    <p>Accueil</p>
+    <p>Évènements</p>
+    <p>Blog</p>
+    <p>À propos</p>
+    <p>Recherche</p>
+    <p>Connexion</p>
+  </div>
+  <div>
+    <h5>Légal</h5>
+    <p>Gestion des cookies</p>
+    <p>Mention légales</p>
+    <p>Gestion de vos données</p>
+  </div>
+  <div>
+    <h5>Nous suivre</h5>
+    <p>S'abonner à la Newsletter</p>
+    <button>Nous contacter</button>
+  </div>
 
+</footer>
 </html>
