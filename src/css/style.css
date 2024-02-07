@@ -121,7 +121,12 @@ button {
     font-size: 18px;
     border: none;
     cursor: pointer;
-    border-radius: 15px
+    border-radius: 15px;
+    height: 58px;
+    left: 557px;
+    position: absolute;
+    top: 577px;
+    width: 167px;
 }
 
 button:hover {
