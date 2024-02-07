@@ -18,7 +18,7 @@ require_once '../../config.php';
 <body>
 <nav id="navbar" class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <img src="./src/images/LS_logo_noir.webp" alt="Logo LSART" id="logo_header" class="logo_header">
+    <img src="../../src/images/LS_logo_noir.webp" alt="Logo LSART" id="logo_header" class="logo_header">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -46,7 +46,7 @@ require_once '../../config.php';
       <form id="search_bar" class="d-flex" role="search">
         <div class="input-group mb-3 search_bar">
         <span class="input-group-text search_icon">
-        <img src="./src/images/search.png" alt="Pictogramme loupe" id="picto_loupe">
+        <img src="../../src/images/search.png" alt="Pictogramme loupe" id="picto_loupe">
         </span>
         <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
       </div>

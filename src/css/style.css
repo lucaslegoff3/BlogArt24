@@ -271,6 +271,11 @@ button:hover {
     flex-direction: row;
 }
 
+.carroussel{
+    display: flex;
+    justify-content: space-around;
+}
+
 /*Inscription */
 
 .pop-up{
