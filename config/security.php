@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Check if user is logged in with SESSION
  */
