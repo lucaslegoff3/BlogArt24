@@ -19,7 +19,7 @@
             <a href="#" class="close">&times;</a>
         </div>
     </div>
-    
+
     <div class="Nom_prenom_mail">
         <!-------------------------------- rajt rectangles nom + prenom + mail ------------------------------------------->
         <!-------------------------------- Mettre mots dans rectangles ------------------------------------------->
@@ -31,7 +31,11 @@
     <div class="Message">
         <H2>Message</H2>
         <!-------------------------------- rajt rectangle "Objet du msg" + txt ------------------------------------------->
-        Objet du Message
+        <div class="ObjetMess">
+            <H2>Objet du message/H2>
+            <!-------------------------------- rjt rect mail + txt ------------------------------------------->
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Objet"/>
+        </div>   
 
         <!-------------------------------- rajt rectangle "Votre message" + txt  ------------------------------------------->
         Votre message...
