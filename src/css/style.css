@@ -290,6 +290,13 @@ button:hover {
 
 /*Inscription */
 
+#inscription {
+    background-color: white !important;
+    border-color: white !important;
+    color: black !important;
+    justify-content: center !important;
+}
+
 .pop-up {
     border: 1px solid black;
     border-radius: 20px;
@@ -374,6 +381,20 @@ button:hover {
 
 .cgu {
     width: 60%;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+/* BLOG */
+
+.blog_sections{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog{
+    width: 70%;
     margin: auto;
     margin-top: 5em;
     margin-bottom: 5em;
