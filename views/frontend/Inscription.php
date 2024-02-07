@@ -32,7 +32,7 @@
             Afficher le mot de passe
         </div>        
     </div>
-
+    
         <!-------------------------------- rjt bouton inscrire + txt + ombre ------------------------------------------->
         En cliquant sur « S'inscrire », vous confirmez que vous acceptez les Conditions générales d'utilisation et notre Politique de confidentialité qui vous informe des modalités de traitement de vos données personnelles ainsi que de vos droits sur ces données.
 </body>
