@@ -8,7 +8,7 @@ include '../../../header.php';
             <h1>Création d'un nouvel article</h1>
         </div>
         <div class="col-md-12">
-            <form action="/api/keywords/create.php" method="post">
+            <form action="<?php echo ROOT_URL . '/api/articles/create.php' ?>" method="post">
                 <div class="form-group">
                     <label for="libTitrArt">Titre de l'article</label>
                     <input id="libTitrArt" name="libTitrArt" class="form-control" type="text" autofocus="autofocus" />
@@ -53,9 +53,7 @@ include '../../../header.php';
                     <label for="libThem">Thème de l'article</label>
                     <input id="libThem" name="libThem" class="form-control" type="text" />
                 </div>
-
-
-                <br />
+                <br>
                 <div class="form-group mt-2">
                     <button type="submit" class="btn btn-primary">Confirmer la création</button>
                 </div>
