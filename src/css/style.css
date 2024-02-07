@@ -231,6 +231,20 @@ button:hover {
     margin-bottom: 5%;
 }
 
+/* EVENEMENTS */
+
+.arti1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.arti2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 /*Inscription */
 
 .pop-up{
@@ -279,7 +293,3 @@ button:hover {
 #modal .container .message{
     padding: 5% 15% 5% 5%;
 }
-
-p {
-    border-bottom:1px solid black;
-    }

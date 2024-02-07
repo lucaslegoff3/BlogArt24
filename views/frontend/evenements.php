@@ -96,7 +96,7 @@ require_once '../../config.php';
     <!-------------------------------- Evenement en cours ------------------------------------------->
 
     <div class="En cours">
-        <div class="img4+txt1">
+        <div class="arti1">
             <div class="img4">
                 <img src="img4">
                 <br>
@@ -112,7 +112,7 @@ require_once '../../config.php';
             </div>
         </div>
 
-        <div class="txt+img5">
+        <div class="arti12">
             <div class="txt2">
                 Lorem ipsum...
             </div>
