@@ -4,7 +4,7 @@ require_once '../../functions/ctrlSaisies.php';
 
 $libLikes = ctrlSaisies($_POST['libLikes']);
 
-sql_insert('LIKES', 'libLikes', '"'. $libLikes .'"');
+sql_insert('LIKEART', 'libLikes', '"'. $libLikes .'"');
 
 
 header('Location: ../../views/backend/likes/list.php');

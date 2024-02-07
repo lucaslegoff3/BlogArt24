@@ -52,6 +52,32 @@ a {
     font-family: 'Nohemi-Regular';
 }
 
+.accueil1{
+    border-radius: 5px;
+    height: 530px;
+    left: 64px;
+    position: absolute;
+    top: 766px;
+    width: 763px;
+}
+
+.accueil2{
+    border-radius: 5px;
+    height: 357px;
+    left: 859px;
+    position: absolute;
+    top: 766px;
+    width: 357px;
+}
+
+.accueil3{
+    margin: 30px;
+}
+
+.accueil4{
+    margin: 30px;
+}
+
 
 
 footer {
@@ -231,6 +257,20 @@ button:hover {
     margin-bottom: 5%;
 }
 
+/* EVENEMENTS */
+
+.arti1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.arti2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 /*Inscription */
 
 .pop-up{
@@ -279,7 +319,3 @@ button:hover {
 #modal .container .message{
     padding: 5% 15% 5% 5%;
 }
-
-p {
-    border-bottom:1px solid black;
-    }
