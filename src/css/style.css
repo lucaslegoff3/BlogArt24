@@ -223,7 +223,8 @@ button:hover {
 
 .pop-up{
     border: 1px solid black;
-    background-color: red;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .hidden{
@@ -266,3 +267,9 @@ button:hover {
 #modal .container .message{
     padding: 5% 15% 5% 5%;
 }
+
+.box {
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+  }
