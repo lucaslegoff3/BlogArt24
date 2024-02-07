@@ -3,6 +3,7 @@ include '../../../header.php'; // contains the header and call to config.php
 
 //Load all articles
 $articles = sql_select("ARTICLE", "*");
+$articles = sql_select("article INNER JOIN thematique ON article.numThem = thematique.numThem", "*");
 ?>
 
 <!-- Bootstrap default layout to display all articles in foreach -->
@@ -26,7 +27,7 @@ $articles = sql_select("ARTICLE", "*");
                         <th>Paragraphe 3 des Articles</th>
                         <th>Conclusion des Articles</th>
                         <th>URL Photo des Articles</th>
-                        <th>Numéro Thématique</th>
+                        <th>Nom Thématique</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -46,7 +47,7 @@ $articles = sql_select("ARTICLE", "*");
                             <td><?php echo($article['parag3Art']); ?></td>
                             <td><?php echo($article['libConclArt']); ?></td>
                             <td><?php echo($article['urlPhotArt']); ?></td>
-                            <td><?php echo($article['numThem']); ?></td>
+                            <td><?php echo($article['libThem']); ?></td>
                             <td>
                                 <a href="edit.php?numStat=<?php echo($statut['numStat']); ?>" class="btn btn-primary">Edit</a>
                                 <a href="delete.php?numStat=<?php echo($statut['numStat']); ?>" class="btn btn-danger">Delete</a>

@@ -1,18 +1,17 @@
 <?php
+include '../../../header.php';
 
-include("header.php");
-
+global $DB;
 
 $se_souvenir = isset($_POST["se_souvenir"]);
-
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST["pseudonyme"]) && !empty($_POST["mot_de_passe"])) {
         $pseudo = $_POST["pseudonyme"];
         $password = sha1($_POST["mot_de_passe"]);
 
-        $sql = "SELECT * FROM inscription WHERE password = :mot_de_passe AND pseudo = :pseudo";
-        $stmt = $bdd->prepare($sql);
+        $sql = "SELECT * FROM /* ... */ WHERE password = :mot_de_passe AND pseudo = :pseudo";
+        $stmt = $DB->prepare($sql);
         $stmt->execute(['pseudo' => $pseudo, 'mot_de_passe' => $password]);
         $user = $stmt->fetch();
 
@@ -25,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 setcookie("code_cookie", $code_cookie, time() + (30 * 24 * 3600));
             }
 
-            $sql = "UPDATE inscription SET code_cookie = :code_cookie WHERE pseudo = :pseudo";
-            $stmt = $bdd->prepare($sql);
+            $sql = "UPDATE /* ... */ SET code_cookie = :code_cookie WHERE pseudo = :pseudo";
+            $stmt = $DB->prepare($sql);
             $stmt->execute(['pseudo' => $pseudo, 'code_cookie' => $code_cookie]);
 
             if ($se_souvenir) {

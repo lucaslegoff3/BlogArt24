@@ -145,6 +145,10 @@ button:hover {
     max-width: 25px;
 }
 
+.nav-link:hover{
+    text-decoration: underline;
+}
+
 #navbar{
     background-color: white !important;
     padding: 20px;
