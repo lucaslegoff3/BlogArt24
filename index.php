@@ -3,6 +3,14 @@ require_once 'header.php';
 sql_connect();
 ?>
 
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+  <meta charset="utf-8" />
+  <link href="<?php echo ROOT_URL; ?>/src/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
 <div class="header">
     <h1 class="accueil">LA MUSIQUE ACCESSIBLE A TOUS</h1>
     <button class="buttongen">Découvrir</button>
