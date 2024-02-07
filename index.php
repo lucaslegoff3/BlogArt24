@@ -35,7 +35,7 @@ sql_connect();
     </div>
 </section>
 <hr>
-<section>
+<section class="qui_sommes_nous">
     <h2>Qui sommes nous ?</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel nulla et ducimus blanditiis aut sint 
         numquam ullam perspiciatis, culpa exercitationem enim unde voluptas, totam repellat laborum obcaecati. 
