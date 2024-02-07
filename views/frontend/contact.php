@@ -8,9 +8,9 @@
 </head>
 
 <body>
-
-    <H1 class="inscrivezvous">Contactez-nous !</H1>
-
+    <div class="formulaire">
+        <H1 class="inscrivezvous">Contactez-nous !</H1>
+    </div>
     <!-------------------------------- Ligne à rjt CSS ------------------------------------------->
     <div id="modal">
         <div class="mask"></div>
