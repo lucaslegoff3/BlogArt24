@@ -476,3 +476,27 @@ padding: 1em 5em 6em;
     white-space: nowrap;
     width: auto;
 }
+
+
+/* connexion */
+
+.connect{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.mdp_oublie{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.inscription{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
