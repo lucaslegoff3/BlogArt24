@@ -4,6 +4,6 @@ require_once '../../functions/ctrlSaisies.php';
 
 $numCom = ctrlSaisies($_POST['numCom']);
 
-sql_delete('COMMENTS', "numCom = $numCom");
+sql_delete('COMMENT', "numCom = $numCom");
 
 header('Location: ../../views/backend/comments/list.php');
