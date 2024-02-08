@@ -18,8 +18,11 @@
         <!-------------------------------- rajt rectangles nom + prenom + mail ------------------------------------------->
         <!-------------------------------- Mettre mots dans rectangles ------------------------------------------->
         Nom
+        <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Nom"/>
         Prénom
+        <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Prénom"/>
         Email
+        <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Email"/>
     </div>
 
     <div class="Message">
@@ -35,10 +38,9 @@
         Votre message...
     </div>
 
-    <!-------------------------------- rajt rectangle "formulaire" + txt ------------------------------------------->
-    Envoyer formulaire
-
-
+    <div class="bouton1">
+        <input class="bouton" type="button" value="Envoyer le formulaire" />
+    </div>  
 
     <div id="modal">
         <div class="mask"></div>
