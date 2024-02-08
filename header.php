@@ -18,7 +18,7 @@ require_once 'config.php';
 <body>
   <nav id="navbar" class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <img src="./src/images/LS_logo_noir.webp" alt="Logo LSART" id="logo_header" class="logo_header">
+      <img src="<?php echo ROOT_URL; ?>/src/images/LS_logo_noir.webp" alt="Logo LSART" id="logo_header" class="logo_header">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,7 +45,7 @@ require_once 'config.php';
         <form id="search_bar" class="d-flex" role="search">
           <div class="input-group mb-3 search_bar">
             <span class="input-group-text search_icon">
-              <img src="./src/images/search.png" alt="Pictogramme loupe" id="picto_loupe">
+              <img src="<?php echo ROOT_URL; ?>/src/images/search.png" alt="Pictogramme loupe" id="picto_loupe">
             </span>
             <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
           </div>
@@ -53,8 +53,5 @@ require_once 'config.php';
         <a id="inscription" class="btn btn-secondary m-1" href="/views/frontend/Inscription.php" role="button">Inscription</a>
         <a id="connexion" class="btn btn-primary m-1" href="/views/frontend/connexion.php" role="button">Connexion</a>
       </div>
-    </div>
-    <a id="connexion" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Connexion</a>
-        <a id="inscription" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Inscription</a>
-  </nav>
+    </div>  </nav>
   <hr>
