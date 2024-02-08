@@ -16,7 +16,7 @@ $membres = sql_select("membre INNER JOIN statut on membre.numStat = statut.numSt
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Statuts</h1>
+            <h1>Membres</h1>
             <table class="table table-striped table-responsive">
                 <thead>
                     <tr>
