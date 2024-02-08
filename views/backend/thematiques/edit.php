@@ -20,7 +20,7 @@ if (isset($_GET['numThem'])) {
         <div class="col-md-12">
             <form action="<?php echo ROOT_URL . '/api/thematiques/update.php' ?>" method="post">
                 <div class="form-group">
-                    <label for="libThem">Nom du thématique</label>
+                    <label for="libThem">Thématique</label>
                     <input id="numThem" name="numThem" class="form-control" style="display: none" type="text" value="<?php echo isset($numThem) ? htmlspecialchars($numThem) : ''; ?>" readonly="readonly" />
                     <input id="libThem" name="libThem" class="form-control" type="text" value="<?php echo htmlspecialchars($libThem); ?>" />
                 </div>

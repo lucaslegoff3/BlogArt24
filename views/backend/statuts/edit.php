@@ -20,7 +20,7 @@ if (isset($_GET['numStat'])) {
         <div class="col-md-12">
             <form action="<?php echo ROOT_URL . '/api/statuts/update.php' ?>" method="post">
                 <div class="form-group">
-                    <label for="libStat">Nom du statut</label>
+                    <label for="libStat">Statut</label>
                     <input id="numStat" name="numStat" class="form-control" style="display: none" type="text" value="<?php echo isset($numStat) ? htmlspecialchars($numStat) : ''; ?>" readonly="readonly" />
                     <input id="libStat" name="libStat" class="form-control" type="text" value="<?php echo htmlspecialchars($libStat); ?>" />
                 </div>
