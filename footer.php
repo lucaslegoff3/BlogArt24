@@ -13,7 +13,7 @@
 		<a href="#">Blog</a>
 		<a href="#">À propos</a>
 		<a href="#">Recherche</a>
-		<a href="#">Connexion</a>
+		<a href="/views/frontend/connexion.php">Connexion</a>
 	</div>
 	<div>
 		<a href="#">Légal</a>
