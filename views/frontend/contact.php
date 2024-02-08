@@ -5,7 +5,7 @@
         <H1 class="inscrivezvous">Contactez-nous !</H1>
         <hr>
         <div class="Nom">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Nom"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="20" placeholder="Nom"/>
         </div>
         <div class="Prenom">
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Prénom"/>
