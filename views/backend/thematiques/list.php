@@ -9,12 +9,12 @@ $thematiques = sql_select("THEMATIQUE", "*");
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>thematiques</h1>
+            <h1>Thématiques</h1>
             <table class="table table-striped">
                 <thead>
                     <tr>
                         <th>Id</th>
-                        <th>Nom des thématiques</th>
+                        <th>Thématiques</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
