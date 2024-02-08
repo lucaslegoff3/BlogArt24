@@ -70,7 +70,4 @@ include("../../header.php")
   Nous croyons en l'importance de favoriser un environnement inclusif et collaboratif, où la valeur de chaque contribution individuelle s'exprime dans le succès collectif de notre entreprise.
 
 </section>
-</body>
-
-</html>
 <?php require_once '../../footer.php'; ?>
