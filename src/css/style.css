@@ -450,6 +450,7 @@ padding: 1em 5em 6em;
 }
 
 .cgu {
+    padding-top: 50px;
     display: flex;
     height: auto;
     left: 162px;
