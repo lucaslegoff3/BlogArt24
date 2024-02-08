@@ -28,7 +28,7 @@
         </div>
 
         <div class="encliquant">
-            <input class="boutton_2" type="button2" value="Envoyer le formulaire" />
+            <input class="button2" type="button" value="Envoyer le formulaire" />
         </div>
     </div>
 
