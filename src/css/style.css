@@ -451,5 +451,12 @@ padding: 1em 5em 6em;
 
 .cgu {
     display: flex;
-    text-align: center;
+    height: auto;
+    left: 162px;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    position: absolute;
+    text-align: left;
+    top: 309px;
+    width: 955px;
 }
