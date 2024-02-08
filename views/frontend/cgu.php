@@ -68,6 +68,6 @@ include("../../header.php")
   En l'absence d'un capital social financier formel, chaque membre de l'équipe contribue de manière équitable à la réussite de l'entreprise en fournissant des compétences, des ressources intellectuelles et un engagement collectif envers la mission de l'entreprise.
   <br>
   Nous croyons en l'importance de favoriser un environnement inclusif et collaboratif, où la valeur de chaque contribution individuelle s'exprime dans le succès collectif de notre entreprise.
-
 </section>
+
 <?php require_once '../../footer.php'; ?>
