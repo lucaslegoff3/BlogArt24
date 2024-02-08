@@ -8,23 +8,23 @@
 	</div>
 	<div>
 		<h5>Plan du site</h5>
-		<a href="/">Accueil</a>
-		<a href="/views/frontend/evenements.php">Évènements</a>
-		<a href="/">Blog</a>
-		<a href="/">À propos</a>
-		<a href="/">Recherche</a>
-		<a href="/views/frontend/connexion.php">Connexion</a>
+		<p><a class="liens_footer" href="/">Accueil</a></p>
+		<p><a class="liens_footer"  href="/views/frontend/evenements.php">Évènements</a></p>
+		<p><a class="liens_footer"  href="/">Blog</a></p>
+		<p><a class="liens_footer"  href="/">À propos</a></p>
+		<p><a  class="liens_footer" href="/">Recherche</a></p>
+		<p><a  class="liens_footer" href="/views/frontend/connexion.php">Connexion</a></p>
 	</div>
 	<div>
-		<a href="#">Légal</a>
-		<a href="#">Gestion des cookies</a>
-		<a href="#">Mention légales</a>
-		<a href="#">Gestion de vos données</a>
+	<p><a  class="liens_footer" href="#">Légal</a></p>
+	<p><a  class="liens_footer" href="#">Gestion des cookies</a></p>
+	<p><a  class="liens_footer" href="#">Mention légales</a></p>
+	<p><a  class="liens_footer" href="#">Gestion de vos données</a></p>
 	</div>
 	<div>
 		<h5>Nous suivre</h5>
 		<p>S'abonner à la Newsletter</p>
-		<a href="<?php echo ROOT_URL; ?>/views/frontend/contact.php"><button class="buttonfooter">Nous contacter</button></a>
+		<p><a href="<?php echo ROOT_URL; ?>/views/frontend/contact.php"><button class="buttonfooter">Nous contacter</button></a></p>
 	</div>
 
 </footer>

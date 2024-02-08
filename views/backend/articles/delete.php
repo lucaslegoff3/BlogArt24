@@ -17,8 +17,8 @@ if (isset($_GET['numArt'])) {
 
             <form action="<?php echo ROOT_URL . '/api/articles/delete.php' ?>" method="post">
                 <div class="form-group">
-                    <label for="numCom">ID de l'article</label>
-                    <input id="numCom" name="numCom" class="form-control" style="display: none" type="text" value="<?php echo ($numArt); ?>" readonly="readonly" />
+                    <label for="numArt">ID de l'article</label>
+                    <input id="numArt" name="numArt" class="form-control" style="display: none" type="text" value="<?php echo ($numArt); ?>" readonly="readonly" />
                     <label for="dtCreaArt">Date création de l'articles</label>
                     <input id="dtCreaArt" name="dtCreaArt" class="form-control" type="text" value="<?php echo ($articles['dtCreaArt']); ?>" readonly="readonly" />
                     <label for="dtMajArt">Date mise à jour de l'articles</label>
