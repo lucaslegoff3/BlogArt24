@@ -1,7 +1,9 @@
 <?php
 include("../../header.php")
 ?>
-
+<div class="cgutitre">
+<h1>Mentions légales</h1>
+</div>
 <section class="cgu">
   <br>
   <h1>Mentions légales</h1>
