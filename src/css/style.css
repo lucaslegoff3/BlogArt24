@@ -409,6 +409,8 @@ button:hover {
     justify-content: space-around;
     flex-direction: column;
     text-align: center;
+    height:819px;
+    width:580px;
     top: 50%;
     margin: auto;
     width: 40%;
@@ -438,8 +440,10 @@ button:hover {
     color: #fff;
 }
 
-
-
+.Nom {
+    height:25px;
+    width:249px;
+}
 
 
 

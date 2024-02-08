@@ -15,19 +15,19 @@ $articles = sql_select("article INNER JOIN thematique ON article.numThem = thema
                 <thead>
                     <tr>
                         <th>Id</th>
-                        <th>Date création des Articles</th>
-                        <th>Date mise à jour des Articles</th>
-                        <th>Titre des Articles</th>
-                        <th>Chapo des Articles</th>
-                        <th>Accroche des Articles</th>
-                        <th>Paragraphe 1 des Articles</th>
-                        <th>Sous titre 1 des Articles</th>
-                        <th>Paragraphe 2 des Articles</th>
-                        <th>Sous titre 2 des Articles</th>
-                        <th>Paragraphe 3 des Articles</th>
-                        <th>Conclusion des Articles</th>
-                        <th>URL Photo des Articles</th>
-                        <th>Nom Thématique</th>
+                        <th>Date création des articles</th>
+                        <th>Date mise à jour des articles</th>
+                        <th>Titre des articles</th>
+                        <th>Chapô des articles</th>
+                        <th>Accroche des articles</th>
+                        <th>Paragraphe 1 des articles</th>
+                        <th>Sous titre 1 des articles</th>
+                        <th>Paragraphe 2 des articles</th>
+                        <th>Sous titre 2 des articles</th>
+                        <th>Paragraphe 3 des articles</th>
+                        <th>Conclusion des articles</th>
+                        <th>URL Photo des articles</th>
+                        <th>Thématique</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -49,8 +49,8 @@ $articles = sql_select("article INNER JOIN thematique ON article.numThem = thema
                             <td><img src="../../../src/uploads/<?php echo str_replace("jpg", "png", $article['urlPhotArt']); ?>" alt="Description de l'image" style="max-width: 600px; height: auto;"></td>
                             <td><?php echo ($article['libThem']); ?></td>
                             <td>
-                                <a href="edit.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-primary">Edit</a>
-                                <a href="delete.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-danger">Delete</a>
+                                <a href="edit.php?numArt=<?php echo ($article['numArt']); ?>" class="btn btn-primary">Edit</a>
+                                <a href="delete.php?numArt=<?php echo ($article['numArt']); ?>" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>

@@ -6,5 +6,4 @@ $libCom = ctrlSaisies($_POST['libCom']);
 
 sql_insert('COMMENTS', 'libCom', $libCom);
 
-
 header('Location: ../../views/backend/comments/list.php');
