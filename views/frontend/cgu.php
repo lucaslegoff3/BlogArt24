@@ -6,9 +6,6 @@ include("../../header.php")
 </div>
 <section class="cgu">
   <br>
-  <h1>Mentions légales</h1>
-  </br>
-  <br>
   Conditions Générales d'Utilisation (CGU) pour LS ART
   <br>
 
