@@ -14,7 +14,8 @@
         </div>
 
         <div class="Message">
-        <H2>Message</H2>
+            <H2>Message</H2>
+        </div>
         <div class="ObjetMess">
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Objet du message"/>
         </div>   
