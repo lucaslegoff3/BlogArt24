@@ -1,5 +1,5 @@
 <?php require_once '../../header.php'; ?>
-<html>
+
 <body>
     <div class="formulaire">
         <H1 class="inscrivezvous">Contactez-nous !</H1>
@@ -18,7 +18,7 @@
         <div class="ObjetMess">
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Objet du message"/>
         </div>   
-        
+
         <div class="message">
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Votre message..."/>
         </div>   
@@ -29,6 +29,6 @@
     </div>
     
 </body>
-</html> 
+
 
 <?php require_once '../../footer.php'; ?>
