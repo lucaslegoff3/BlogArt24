@@ -390,7 +390,20 @@ padding: 1em 5em 6em;
 }
 
 
+/* Contact */
 
+.Nom {
+    display: flex;
+    height:50px;
+    width:249px;
+
+}
+
+.box_message{
+    display: flex;
+    padding: 10em;
+
+}
 
 /*message*/
 
