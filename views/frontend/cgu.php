@@ -1,10 +1,10 @@
 <?php
 include("../../header.php")
 ?>
-
+<div class="cgutitre">
+<h1>Mentions légales</h1>
+</div>
 <section class="cgu">
-
-  <h1>Mentions légales</h1>
   <br>
   Conditions Générales d'Utilisation (CGU) pour LS ART
   <br>

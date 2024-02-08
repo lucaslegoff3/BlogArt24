@@ -458,7 +458,8 @@ padding: 1em 5em 6em;
     padding-top: 50px;
     display: flex;
     height: auto;
-    left: 162px;
+    margin-left: 500px;
+    padding-right: 80px;
     letter-spacing: 0.00px;
     line-height: 24px;
     text-align: left;
@@ -467,6 +468,11 @@ padding: 1em 5em 6em;
     padding-bottom: 80px;
 }
 
-.cgu h1 {
+.cgutitre{
+    padding-top: 50px;
     text-align: center;
+    height: auto;
+    line-height: normal;
+    white-space: nowrap;
+    width: auto;
 }
