@@ -45,7 +45,7 @@ sql_connect();
         <div id="comments-list"></div>
         <img src="utilisateur.webp">
         <h3>Utilisateur</h3>
-        <form id="comment-form">
+        <form id="insertemail">
             <textarea name="textarea" rows="5" cols="30" class="box_message" id="name" placeholder="insérer un commentaire"></textarea>
             <button type="submit" class="buttongen">envoyer</button>
         </form>
