@@ -6,5 +6,4 @@ $numArt = ctrlSaisies($_POST['numArt']);
 
 sql_insert('ARTICLE', 'numArt', $numArt);
 
-
 header('Location: ../../views/backend/articles/list.php');
