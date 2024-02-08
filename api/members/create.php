@@ -6,4 +6,5 @@ $libMemb = ctrlSaisies($_POST['libMemb']);
 
 sql_insert('MEMBRE', 'libMemb', $libMemb);
 
-header('Location: ../../views/backend/members/list.php');
+
+header('Location: ../../../views/backend/members/list.php');*/
