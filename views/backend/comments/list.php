@@ -44,8 +44,8 @@ $commentaires = sql_select("comment
                             <td><?php echo ($commentaire['libTitrArt']); ?></td>
                             <td><?php echo ($commentaire['pseudoMemb']); ?></td>
                             <td>
-                                <a href="edit.php?numStat=<?php echo ($statut['numCom']); ?>" class="btn btn-primary">Edit</a>
-                                <a href="delete.php?numStat=<?php echo ($statut['numCom']); ?>" class="btn btn-danger">Delete</a>
+                                <a href="edit.php?numCom=<?php echo ($commentaire['numCom']); ?>" class="btn btn-primary">Edit</a>
+                                <a href="delete.php?numCom=<?php echo ($commentaire['numCom']); ?>" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>
