@@ -18,10 +18,10 @@
         <div class="ObjetMess">
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Objet du message"/>
         </div>   
+        
         <div class="message">
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Votre message..."/>
         </div>   
-        </div>
 
         <div class="bouton1">
             <input class="bouton" type="button" value="Envoyer le formulaire" />
@@ -29,5 +29,6 @@
     </div>
     
 </body>
-</html>  
+</html> 
+
 <?php require_once '../../footer.php'; ?>
