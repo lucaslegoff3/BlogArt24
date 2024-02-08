@@ -39,7 +39,7 @@ if (!empty($pseudoExist)) {
 }
 
 
-if (preg_match($regex, $passMemb1) && preg_match($regex, $passMemb2)) {
+if (preg_match($regex, $passMemb1) == preg_match($regex, $passMemb2)) {
     if ($passMemb1 !== $passMemb2) {
         // Cryptage du mot de passe avec password_hash()
         $hashedPassword = password_hash($passMemb1, PASSWORD_DEFAULT);
@@ -54,7 +54,7 @@ if (preg_match($regex, $passMemb1) && preg_match($regex, $passMemb2)) {
 
 // Validation des adresses e-mail
 if (!filter_var($email1, FILTER_VALIDATE_EMAIL) || !filter_var($email2, FILTER_VALIDATE_EMAIL)) {
-    die("Veuillez entrer des adresses valides");
+    die("Veuillez entrer des adresses e-mail valides");
 } 
 
 if ($email1 !== $email2) {
@@ -63,7 +63,7 @@ if ($email1 !== $email2) {
 }   
 
 if (!isset($verif)){
-    echo "Vous devez cocher case en bas de page";
+    echo "Voeuillez cocher la case en bas à gauche de la page.";
     exit();
 }
 
@@ -84,10 +84,10 @@ $url = 'https://www.google.com/recaptcha/api/siteverify';
     $verify = file_get_contents($url, false, $context);
     $captcha_success=json_decode($verify);
     if ($captcha_success->success==false) {
-        echo "<p>You are a bot! Go away!</p>";
+        echo "<p>Echec du captcha.</p>";
         exit;
     } else if ($captcha_success->success==true) {
-        echo "<p>You are not a bot!</p>";
+        echo "<p>Bienvenue</p>";
     }
 
 else{
