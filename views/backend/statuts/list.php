@@ -11,7 +11,7 @@ $statuts = sql_select("STATUT", "*");
                 <thead>
                     <tr>
                         <th>Id</th>
-                        <th>Nom des statuts</th>
+                        <th>Statuts</th>
                         <th>Actions</th>
                     </tr>
                 </thead>

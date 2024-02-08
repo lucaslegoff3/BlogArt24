@@ -17,7 +17,7 @@ if (isset($_GET['numThem'])) {
             <!-- Form to create a new thematique -->
             <form action="<?php echo ROOT_URL . '/api/thematiques/delete.php' ?>" method="post">
                 <div class="form-group">
-                    <label for="libThem">Nom du thématique</label>
+                    <label for="libThem">Thématique</label>
                     <input id="numThem" name="numThem" class="form-control" style="display: none" type="text" value="<?php echo ($numThem); ?>" readonly="readonly" />
                     <input id="libThem" name="libThem" class="form-control" type="text" value="<?php echo ($libThem); ?>" readonly="readonly" disabled />
                 </div>

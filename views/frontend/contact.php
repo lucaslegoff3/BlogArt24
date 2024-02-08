@@ -2,13 +2,13 @@
 
 <body>
     <div class="formulaire">
-        <H1 class="inscrivezvous">Contactez-nous !</H1>
+        <H1 class="contact">Contactez-nous !</H1>
         <hr>
         <div class="Nom">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Nom"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="20" placeholder="Nom"/>
         </div>
         <div class="Prenom">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Prénom"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="20" placeholder="Prénom"/>
         </div>
         <div class="insertemail">
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Email"/>
@@ -18,18 +18,18 @@
             <H2>Message</H2>
         </div>
         <div class="ObjetMess">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Objet du message"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="15" placeholder="Objet du message"/>
         </div>   
 
         <div class="message">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Votre message..."/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="70" placeholder="Votre message..."/>
         </div>   
 
-        <div class="bouton1">
+        <div class="encliquant">
             <input class="bouton" type="button" value="Envoyer le formulaire" />
-        </div>  
+        </div>
     </div>
-    
+
 </body>
 
 
