@@ -288,7 +288,7 @@ button:hover {
     justify-content: space-around;
 }
 
-
+/* INsciption */
 .pop-up{
     border: 1px solid black;
     border-radius: 20px;
@@ -389,11 +389,69 @@ padding: 1em 5em 6em;
     padding: 1em;
 }
 
+
+/* Contact */
+
 .Nom {
     height:50px;
     width:249px;
 
 }
+
+.box_message{
+    padding: 10em;
+
+}
+
+/*message*/
+
+#name2{
+    background-color: rgba(236, 236, 236, 1);
+    border-radius: 5px;
+    color: rgba(116, 116, 116, 1);
+    border-color: rgba(205, 205, 205, 1);
+    border-width: 0.1em;
+    border-style: solid;
+    height: 2.5em;
+    width: 23em;
+    margin-bottom: 1em;
+}
+
+#name3{
+    background-color: rgba(236, 236, 236, 1);
+    border-radius: 5px;
+    color: rgba(116, 116, 116, 1);
+    border-color: rgba(205, 205, 205, 1);
+    border-width: 0.1em;
+    border-style: solid;
+    height: 2.5em;
+    width: 23em;
+    padding: 20%;
+}
+.message{
+    display: block;
+    width: 23em;
+    height: 10em;
+    margin: auto;
+}
+
+.nom_prenom{
+    columns: 9em;
+    height: 3em;
+}
+
+.nom{
+    display: flex;
+    width: 10em;
+    margin-left: 4.1em;
+}
+
+.prenom{
+    display: flex;
+    width: 10em;
+    margin-left: 4.1em;
+}
+
 
 
 
