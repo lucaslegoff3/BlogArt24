@@ -8,18 +8,18 @@
 	</div>
 	<div>
 		<h5>Plan du site</h5>
-		<p>Accueil</p>
-		<p>Évènements</p>
-		<p>Blog</p>
-		<p>À propos</p>
-		<p>Recherche</p>
-		<p>Connexion</p>
+		<a href="#">Accueil</a>
+		<a href="#">Évènements</a>
+		<a href="#">Blog</a>
+		<a href="#">À propos</a>
+		<a href="#">Recherche</a>
+		<a href="#">Connexion</a>
 	</div>
 	<div>
-		<h5>Légal</h5>
-		<p>Gestion des cookies</p>
-		<p>Mention légales</p>
-		<p>Gestion de vos données</p>
+		<a href="#">Légal</a>
+		<a href="#">Gestion des cookies</a>
+		<a href="#">Mention légales</a>
+		<a href="#">Gestion de vos données</a>
 	</div>
 	<div>
 		<h5>Nous suivre</h5>
