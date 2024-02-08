@@ -1,57 +1,38 @@
-<?php 
-require_once '../../header.php';
-sql_connect();
-?>
+<?php require_once '../../header.php'; ?>
 
 <body>
-<div class="header">
-    <h1 class="accueil">Festival Accessible aux sourds et malentendants à Bordeaux</h1>
-</div>
-<section class=blog>
-    <div class="blog_sections">
-        <div>
-            <h2>Bordeaux à travers – La musique accessible</h2>
-            <p>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
-            <a class="nav-link active" href="/">en savoir plus</a>
-        <img src="img_article_1.webp">
+    <div class="formulaire">
+        <H1 class="contact">Contactez-nous !</H1>
+        <hr>
+        <div class="nom_prenom">
+            <div class="nom">
+                <input type="text" id="name2" name="name2" required minlength="0" maxlength="" size="10" placeholder="Nom"/>
+            </div>
+            <div class="prenom">
+                <input type="text" id="name2" name="name2" required minlength="0" maxlength="" size="20" placeholder="Prénom"/>
+            </div>
         </div>
+        <div class="insertemail">
+            <input type="text" id="name2" name="name2" required minlength="0" maxlength="" size="40" placeholder="Email"/>
         </div>
-    <div class="blog_sections">
-        <div>
-        <h2>Bordeaux à travers – La musique accessible</h2>
-        <p>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
-        <a class="nav-link active" href="/">en savoir plus</a>
-        <img src="img_article_2.webp">
+
+        <div class="Message">
+            <H2>Message</H2>
         </div>
-    </div>
-    <div class="blog_sections">
-        <div>
-        <h2>Bordeaux à travers – La musique accessible</h2>
-        <h3>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
-        <a class="nav-link active" href="/">en savoir plus</a>
-        <img src="img_article_3.webp">
+        <div class="ObjetMess">
+            <input type="text" id="name2" name="name2" required minlength="0" maxlength="20" size="15" placeholder="Objet du message"/>
         </div>
-    </div>
-    <div class="blog_sections">
-        <div>
-        <h2>Bordeaux à travers – La musique accessible</h2>
-        <p>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
-        <a class="nav-link active" href="/">en savoir plus</a>
-        <img src="img_article_4.webp">
+
+        <div class="message">
+            <input type="text" id="name3" name="name3" required minlength="0" maxlength="" size="" placeholder="Votre message..."/>
         </div>
-    </div>
-    <div class="commentaires">
-        <h2>Commentaires</h2>
-        <div id="comments-list"></div>
-        <img src="utilisateur.webp">
-        <h3>Utilisateur</h3>
-        <form id="comment-form">
-            <textarea name="textarea" rows="5" cols="30" class="insertemail" id="name" placeholder="insérer un commentaire"></textarea>
-            <button type="submit" class="buttongen">envoyer</button>
-        </form>
+
+        <div class="encliquant">
+            <input class="bouton" type="button" value="Envoyer le formulaire" />
+        </div>
     </div>
 
-</section>
 </body>
+
 
 <?php require_once '../../footer.php'; ?>
