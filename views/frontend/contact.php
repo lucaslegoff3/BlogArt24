@@ -8,7 +8,7 @@
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="20" placeholder="Nom"/>
         </div>
         <div class="Prenom">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Prénom"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="20" placeholder="Prénom"/>
         </div>
         <div class="insertemail">
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Email"/>
@@ -18,11 +18,11 @@
             <H2>Message</H2>
         </div>
         <div class="ObjetMess">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Objet du message"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="10" placeholder="Objet du message"/>
         </div>   
 
         <div class="message">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Votre message..."/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="100" placeholder="Votre message..."/>
         </div>   
 
         <div class="bouton1">
