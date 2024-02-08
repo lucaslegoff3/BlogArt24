@@ -8,11 +8,11 @@
 	</div>
 	<div>
 		<h5>Plan du site</h5>
-		<a href="#">Accueil</a>
-		<a href="#">Évènements</a>
-		<a href="#">Blog</a>
-		<a href="#">À propos</a>
-		<a href="#">Recherche</a>
+		<a href="/">Accueil</a>
+		<a href="/views/frontend/evenements.php">Évènements</a>
+		<a href="/">Blog</a>
+		<a href="/">À propos</a>
+		<a href="/">Recherche</a>
 		<a href="/views/frontend/connexion.php">Connexion</a>
 	</div>
 	<div>
