@@ -18,11 +18,11 @@
             <H2>Message</H2>
         </div>
         <div class="ObjetMess">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="10" placeholder="Objet du message"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="15" placeholder="Objet du message"/>
         </div>   
 
         <div class="message">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="100" placeholder="Votre message..."/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="70" placeholder="Votre message..."/>
         </div>   
 
         <div class="bouton1">
