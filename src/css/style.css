@@ -290,17 +290,17 @@ button:hover {
 
 /*Inscription */
 
-.pop-up {
+.pop-up{
     border: 1px solid black;
     border-radius: 20px;
     background-color: red;
 }
 
-.hidden {
-    display: none;
+.hidden{
+    display:none;
 }
 
-#modal {
+#modal{
     position: fixed;
     z-index: 99999;
     top: 0;
@@ -309,12 +309,10 @@ button:hover {
     left: 0;
     display: none;
 }
-
-#modal.open {
+#modal.open{
     display: block;
 }
-
-#modal .mask {
+#modal .mask{
     background: black;
     opacity: 0.8;
     position: absolute;
@@ -324,7 +322,7 @@ button:hover {
     left: 0;
 }
 
-.formulaire {
+.formulaire{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -335,46 +333,113 @@ button:hover {
     border: 3px solid black;
     border-radius: 20px;
     margin-bottom: 10%;
-
+    
 }
 
-.encliquant {
+.encliquant{
     font-size: 12px;
 }
 
-.inscrivezvous {
+.inscrivezvous{
     text-align: center;
     display: flex;
     justify-content: center;
-    top: 20%;
+    top: 20%; 
 }
 
-.bouton {
+.bouton{
     padding: 0.7em 8.5em 0.7em 8.5em;
     border-radius: 15px;
     text-align: center;
-    background-color: rgba(30, 99, 245, 1);
+    background-color:  rgba(30, 99, 245, 1);
     border-color: rgba(30, 99, 245, 1);
     color: #fff;
 }
 
-/* ARTICLE 1 */
+.afficher_mdp{
+    padding: 1em 1em 1em 1em;
+    border-radius: 15px;
 
-.article_1 {
+}
+
+#name{
+    background-color: rgba(236, 236, 236, 1);
+    border-radius: 5px;
+    color: rgba(116, 116, 116, 1);
+    border-color: rgba(205, 205, 205, 1);    
+    border-width: 0.1em;
+    border-style: solid;}
+
+/*Connexion */
+
+.pop-up{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.hidden{
+    display:none;
+}
+
+#modal{
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+#modal.open{
+    display: block;
+}
+#modal .mask{
+    background: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.formulaire{
     display: flex;
     justify-content: space-around;
-}
-
-.article {
+    flex-direction: column;
+    text-align: center;
+    top: 50%;
     margin: auto;
-    width: 60%;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-bottom: 10%;
+    
 }
 
-/* CGU */
-
-.cgu {
-    width: 60%;
-    margin: auto;
-    margin-top: 5em;
-    margin-bottom: 5em;
+.encliquant{
+    font-size: 12px;
 }
+
+.inscrivezvous{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 20%; 
+}
+
+.bouton{
+    padding: 0.7em 8.5em 0.7em 8.5em;
+    border-radius: 15px;
+    text-align: center;
+    background-color:  rgba(30, 99, 245, 1);
+    border-color: rgba(30, 99, 245, 1);
+    color: #fff;
+}
+
+
+
+
+
+

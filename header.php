@@ -25,23 +25,22 @@ require_once 'config.php';
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="<?php echo ROOT_URL; ?>">Accueil</a>
+            <a class="nav-link active" aria-current="page" href="/">Accueil</a>
           </li>
           <li>
-            <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/evenements.php">Evenements</a>
+            <a class="nav-link active" href="/views/frontend/evenements.php">Evenements</a>
           </li>
           <li>
-            <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/article1.php">Blog</a>
+            <a class="nav-link active" href="/">Blog</a>
           </li>
           <li>
-            <a class="nav-link active" href="<?php echo ROOT_URL; ?>/views/frontend/equipe.php">À propos</a>
+            <a class="nav-link active" href="/">À propos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/views/backend/dashboard.php">Admin</a>
           </li>
         </ul>
       </div>
-      <!--right align-->
       <div class="d-flex">
         <form id="search_bar" class="d-flex" role="search">
           <div class="input-group mb-3 search_bar">
@@ -51,9 +50,8 @@ require_once 'config.php';
             <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
           </div>
         </form>
-        <a id="connexion" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/login.php" role="button">Connexion</a>
-        <a id="inscription" class="btn btn-primary m-1" href="<?php echo ROOT_URL; ?>/views/backend/security/signup.php" role="button">Inscription</a>
+        <a id="inscription" class="btn btn-secondary m-1" href="/views/frontend/Inscription.php" role="button">Inscription</a>
+        <a id="connexion" class="btn btn-primary m-1" href="/views/frontend/connexion.php" role="button">Connexion</a>
       </div>
-    </div>
-  </nav>
+    </div>  </nav>
   <hr>
