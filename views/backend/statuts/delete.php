@@ -29,7 +29,7 @@ if (isset($_GET['numStat'])) {
                 <br />
                 <div class="form-group mt-2">
                     <?php if ($delete == 0) {
-                        echo '<span style="color: red;"><b>Erreur :</b> Impossible de supprimer ce statut car il est associé à des membres.</span><br>'; ?><br>
+                        echo '<span style="color: red;"><b>Erreur :</b> Impossible de supprimer ce statut car il est associé à des membres.</span>'; ?><br>
                         <button type="submit" class="btn btn-danger" disabled>Confirmer delete ?</button>
                     <?php } elseif ($delete == 1) { ?>
                         <button type="submit" class="btn btn-danger">Confirmer delete ?</button>
