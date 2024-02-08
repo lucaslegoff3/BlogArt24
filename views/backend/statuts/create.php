@@ -12,7 +12,7 @@ include '../../../header.php';
             <!-- Form to create a new statut -->
             <form action="<?php echo ROOT_URL . '/api/statuts/create.php' ?>" method="post">
                 <div class="form-group">
-                    <label for="libStat">Nom du statut</label>
+                    <label for="libStat">Statut</label>
                     <input id="libStat" name="libStat" class="form-control" type="text" autofocus="autofocus" />
                 </div>
                 <br>

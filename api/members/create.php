@@ -1,10 +1,8 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-require_once '../../../functions/ctrlSaisies.php';
-/*
-if (isset ($_POST['libMemb'])){
-    $libMemb = ctrlSaisies($_POST['libMemb']);
-}
+require_once '../../functions/ctrlSaisies.php';
+
+$libMemb = ctrlSaisies($_POST['libMemb']);
 
 sql_insert('MEMBRE', 'libMemb', $libMemb);
 
