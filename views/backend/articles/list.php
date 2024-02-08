@@ -49,8 +49,8 @@ $articles = sql_select("article INNER JOIN thematique ON article.numThem = thema
                             <td><img src="../../../src/uploads/<?php echo str_replace("jpg", "png", $article['urlPhotArt']); ?>" alt="Description de l'image" style="max-width: 600px; height: auto;"></td>
                             <td><?php echo ($article['libThem']); ?></td>
                             <td>
-                                <a href="edit.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-primary">Edit</a>
-                                <a href="delete.php?numStat=<?php echo ($statut['numStat']); ?>" class="btn btn-danger">Delete</a>
+                                <a href="edit.php?numArt=<?php echo ($article['numArt']); ?>" class="btn btn-primary">Edit</a>
+                                <a href="delete.php?numArt=<?php echo ($article['numArt']); ?>" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>
