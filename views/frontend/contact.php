@@ -5,18 +5,14 @@
         <H1 class="inscrivezvous">Contactez-nous !</H1>
         <hr>
         <div class="Nom_prenom_mail">
-            Nom
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Nom"/>
-            Prénom
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Prénom"/>
-            Email
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Email"/>
         </div>
 
     <div class="Message">
         <H2>Message</H2>
         <div class="ObjetMess">
-            <H2>Objet du message</H2>
             <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Objet"/>
         </div>   
 
