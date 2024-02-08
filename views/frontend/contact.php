@@ -5,18 +5,19 @@
         <H1 class="inscrivezvous">Contactez-nous !</H1>
         <hr>
         <div class="Nom_prenom_mail">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Nom"/>
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Prénom"/>
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Email"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Nom"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Prénom"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Email"/>
         </div>
 
     <div class="Message">
         <H2>Message</H2>
         <div class="ObjetMess">
-            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" value="Objet"/>
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Objet du message"/>
         </div>   
-
-        Votre message...
+        <div class="message">
+            <input type="text" id="name" name="name" required minlength="0" maxlength="20" size="40" placeholder="Votre message..."/>
+        </div>   
     </div>
 
         <div class="bouton1">
