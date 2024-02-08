@@ -464,4 +464,8 @@ padding: 1em 5em 6em;
 
 .cgu h1 {
     text-align: center;
+    height: auto;
+    line-height: normal;
+    white-space: nowrap;
+    width: auto;
 }
