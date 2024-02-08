@@ -26,7 +26,7 @@ if (isset($_GET['numMemb'])){
 <body>
     <div class="container">
 
-        <form action="" method="post" style="padding: 2vw;">
+        <form action="<?php echo ROOT_URL . '/api/members/delete.php' ?>" method="post" style="padding: 2vw;">
             <div class="form-group">
                 <div class="form-group">
                     <label for="number">Numéro</label>

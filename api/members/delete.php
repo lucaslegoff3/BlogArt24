@@ -1,21 +1,24 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 require_once '../../functions/ctrlSaisies.php';
-/*
-if (isset($_GET['numMemb'])) {
-    $numMemb = ctrlSaisies($_POST['numMemb']);
 
-    sql_delete('MEMBRE', "numMemb = $numMemb");
+if (isset($_POST['number'])) {
+    $numMemb = ctrlSaisies($_POST['number']);
 
-    header('Location: ../../views/backend/members/list.php');
-    exit();
+    // Vérifier si le membre existe avant de tenter de le supprimer
+    $existingMember = sql_select("MEMBRE", "*", "numMemb = $numMemb");
+    
+    if (!empty($existingMember)) {
+        // Supprimer le membre seulement s'il existe
+        sql_delete('MEMBRE', "numMemb = $numMemb");
+        header('Location: ../../views/backend/members/list.php');
+        exit();
+    } else {
+        echo "Le membre avec l'id $numMemb n'existe pas.";
+        exit();
+    }
 } else {
     echo "L'id du membre à supprimer n'est pas spécifié.";
     exit();
-}*/
-
-$numMemb = ctrlSaisies($_Post['numMemb']);
-sql_delete('MEMBRE',"numMemb = $numMemb");
-header('Location: ../../views/backend/members/list.php');
-
+}
 ?>
