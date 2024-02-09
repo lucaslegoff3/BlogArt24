@@ -13,7 +13,7 @@ sql_connect();
             <h2>Bordeaux à travers – La musique accessible</h2>
             <p>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
             <a class="nav-link active" href="/">en savoir plus</a>
-        <img class="blogarticle" src="img_article_1.webp">
+        <img class="blogarticle" src="src/images/article.png">
         </div>
     <div class="blog_sections">
         <div>
@@ -21,16 +21,7 @@ sql_connect();
         <h2>Bordeaux à travers – La musique accessible</h2>
         <p>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
         <a class="nav-link active" href="/">en savoir plus</a>
-        <img class="blogarticle" src="img_article_2.webp">
-        </div>
-    </div>
-    <div class="blog_sections">
-        <div>
-        <hr>
-        <h2>Bordeaux à travers – La musique accessible</h2>
-        <p>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
-        <a class="nav-link active" href="/">en savoir plus</a>
-        <img class="blogarticle" src="img_article_3.webp">
+        <img class="blogarticle" src="src/images/article.png">
         </div>
     </div>
     <div class="blog_sections">
@@ -39,7 +30,16 @@ sql_connect();
         <h2>Bordeaux à travers – La musique accessible</h2>
         <p>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
         <a class="nav-link active" href="/">en savoir plus</a>
-        <img class="blogarticle" src="img_article_4.webp">
+        <img class="blogarticle" src="src/images/article.png">
+        </div>
+    </div>
+    <div class="blog_sections">
+        <div>
+        <hr>
+        <h2>Bordeaux à travers – La musique accessible</h2>
+        <p>Les Festivals sont des événements devenus incontournables au fil des années. Très à la mode dans les années 70, ils ont su s’adapter au fil des années pour plaire à tout public en proposant de plus en plus de variations de styles musicaux. Cependant, quand on parle d'accessibilité à ces événements, la question des personnes atteintes de surdité se pose. Comment faire en sorte pour qu'elles aussi puissent ressentir la musique ?</p>
+        <a class="nav-link active" href="/">en savoir plus</a>
+        <img class="blogarticle" src="src/images/article.png">
         <hr>
         </div>
     </div>
