@@ -43,15 +43,20 @@ sql_connect();
         <hr>
         </div>
     </div>
-    <div class="commentaires">
-        <h2>Commentaires</h2>
-        <div id="comments-list"></div>
-        <img src="utilisateur.webp">
-        <h3>Utilisateur</h3>
-        <form id="comment-form">
-            <textarea name="textarea" rows="5" cols="30" placeholder="insérer un commentaire"></textarea>
-            <button type="submit" class="button2">envoyer</button>
-        </form>
+    <div class="commentaire">
+      <div class="titre_article">
+          <h2>Commentaires</h2>
+      </div>
+
+      <div class="utilisateurs">
+        <h3>Utilisateurs</h3>
+      </div>
+      <div class="circle">
+        
+      </div>
+      <div class="zone_comm">
+        <input type="text" id="zone_commentaire" name="zone_commentaire" required minlength="0" maxlength="100" size="20" placeholder="Insérer un commentaire"/>
+      </div>
     </div>
 
 </section>
