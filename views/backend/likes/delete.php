@@ -23,7 +23,7 @@ if (isset($_GET['numLike'])) {
                 </div>
                 <br />
                 <div class="form-group mt-2">
-                    <p style=color:red><i><strong>Attention : </strong>L'existence de Mots clés associés à un ou plusieurs articles rendra la suppression impossible.</i></p>
+                    <p style=color:red><i><strong>Attention : </strong>L'existence de Like associés à un ou plusieurs articles rendra la suppression impossible.</i></p>
                     <button type="submit" class="btn btn-danger">Confirmer delete ?</button>
                 </div>
             </form>

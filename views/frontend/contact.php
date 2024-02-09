@@ -1,7 +1,7 @@
 <?php require_once '../../header.php'; ?>
 
 <body>
-    <div class="formulaire">
+    <form class="formulaire">
         <H1 class="contact">Contactez-nous !</H1>
         <hr>
         <div class="nom_prenom">
@@ -30,7 +30,7 @@
         <div class="encliquant">
             <input class="bouton" type="button" value="Envoyer le formulaire" />
         </div>
-    </div>
+</form>
 
 </body>
 
