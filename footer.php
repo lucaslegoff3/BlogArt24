@@ -16,14 +16,14 @@
 		<p><a  class="liens_footer" href="/views/frontend/connexion.php">Connexion</a></p>
 	</div>
 	<div>
-	<p><a  class="liens_footer" href="#">Légal</a></p>
+	<h5>Légal</h5>
 	<p><a  class="liens_footer" href="#">Gestion des cookies</a></p>
 	<p><a  class="liens_footer" href="#">Mention légales</a></p>
 	<p><a  class="liens_footer" href="#">Gestion de vos données</a></p>
 	</div>
 	<div>
 		<h5>Nous suivre</h5>
-		<p>S'abonner à la Newsletter</p>
+		<p><a  class="liens_footer" href="/views/frontend/newsletter.php">S'abonner à la Newsletter</a></p>
 		<p><a href="<?php echo ROOT_URL; ?>/views/frontend/contact.php"><button class="buttonfooter">Nous contacter</button></a></p>
 	</div>
 
