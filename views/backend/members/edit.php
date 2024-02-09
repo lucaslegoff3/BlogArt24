@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
     <div class="container">
-        <form action="" method="post" style="padding: 2vw;">
+        <form action="<?php echo ROOT_URL . '/api/members/update.php' ?>" method="post" style="padding: 2vw;">
             <div class="form-group">
                 <label for="pseudo">Numéro</label>
                 <input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Pseudo" value="<?php echo $membres[0]['numMemb']; ?>" readonly>
@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="g-recaptcha" data-sitekey="6LfpN2QpAAAAAF6lmuCFTukw2i8AiG0Ehb8BbBFq" data-callback="enableSubmitButton"></div>
             </div>
 
-            <button type="submit" class="btn btn-primary" id="submitBtn" disabled>Modifier</button>
+            <button type="submit" class="btn btn-primary" id="submitBtn">Modifier</button>
         </form>
 
     </div>

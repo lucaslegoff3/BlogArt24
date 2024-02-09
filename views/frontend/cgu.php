@@ -1,10 +1,10 @@
 <?php
 include("../../header.php")
 ?>
-
+<div class="cgutitre">
+<h1>Mentions légales</h1>
+</div>
 <section class="cgu">
-
-  <h1>Mentions légales</h1>
   <br>
   Conditions Générales d'Utilisation (CGU) pour LS ART
   <br>
@@ -68,9 +68,6 @@ include("../../header.php")
   En l'absence d'un capital social financier formel, chaque membre de l'équipe contribue de manière équitable à la réussite de l'entreprise en fournissant des compétences, des ressources intellectuelles et un engagement collectif envers la mission de l'entreprise.
   <br>
   Nous croyons en l'importance de favoriser un environnement inclusif et collaboratif, où la valeur de chaque contribution individuelle s'exprime dans le succès collectif de notre entreprise.
-
 </section>
-</body>
-<?php require_once '../../footer.php'; ?>
 
-</html>
+<?php require_once '../../footer.php'; ?>

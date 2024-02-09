@@ -78,11 +78,16 @@ a {
 
 footer {
     background-color: black;
-    color: white;
+    color: white !important;
     padding: 20px;
     display: flex;
     justify-content: space-around;
     height: 329px;
+}
+
+.liens_footer{
+    color: white !important;
+    text-decoration: none !important;
 }
 
 footer div {
@@ -288,7 +293,8 @@ button:hover {
     justify-content: space-around;
 }
 
-/* INsciption */
+/*Inscription*/
+
 .pop-up{
     border: 1px solid black;
     border-radius: 20px;
@@ -390,18 +396,14 @@ padding: 1em 5em 6em;
 }
 
 
+
 /* Contact */
-
-.Nom {
-    height:50px;
-    width:249px;
-
-}
 
 .box_message{
     padding: 10em;
 
 }
+
 
 /*message*/
 
@@ -438,6 +440,7 @@ padding: 1em 5em 6em;
 .nom_prenom{
     columns: 9em;
     height: 3em;
+    display:flexbox;
 }
 
 .nom{
@@ -452,6 +455,53 @@ padding: 1em 5em 6em;
     margin-left: 4.1em;
 }
 
+.cgu {
+    padding-top: 50px;
+    display: flex;
+    height: auto;
+    margin-left: 500px;
+    padding-right: 80px;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    text-align: left;
+    top: 309px;
+    width: 955px;
+    padding-bottom: 100px;
+}
+
+.cgutitre{
+    padding-top: 50px;
+    text-align: center;
+    height: auto;
+    line-height: normal;
+    white-space: nowrap;
+    width: auto;
+}
 
 
+/* connexion */
 
+.connect{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.mdp_oublie{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.inscription{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.contact {
+    padding-top: 50px;
+}
