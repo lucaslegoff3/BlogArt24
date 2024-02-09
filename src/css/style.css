@@ -508,6 +508,7 @@ padding: 1em 5em 6em;
 }
 
 .blogarticle {
+    display: block;
     left: 843px;
     top: 910px;
     width: 276px;
