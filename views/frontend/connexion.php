@@ -15,7 +15,7 @@ sql_connect();
 
         <div class="mdp">
             <H2>Mot de passe</H2>
-            <input type="text" id="name" name="name" required minlength="6" maxlength="25" size="10" placeholder="Mot de passe"/>
+            <input type="password" id="name" name="name" required minlength="6" maxlength="25" size="10" placeholder="Mot de passe"/>
         </div>
 
         <div class="bouton_3">
