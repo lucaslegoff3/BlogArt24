@@ -23,7 +23,7 @@ sql_connect();
         </div>
 
         <div class="mdp_oublie">
-            <img src="../src/images/Groupe_47.png">
+            <img src="../images/Groupe_47.png">
             <p>Mot de passe oublié ?</p>
         </div>
 
@@ -31,7 +31,7 @@ sql_connect();
 
         <H3>Vous n'êtes pas encore inscrit ?</H3>
         <div class="inscription">
-            <img src="../src/images/Groupe_47.png">
+            <img src="../images/Groupe_47.png">
             <p>Inscrivez-vous ici</p>
         </div>
     </div>
