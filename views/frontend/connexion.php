@@ -20,12 +20,12 @@ sql_connect();
         </div>
 
         <div class="bouton_3">
-            <p><input class="bouton" type="button" value="Se connecter" /></p>
+            <p><a href="" class="bouton" type="button">Se connecter</a></p>
         </div>
 
         <div class="mdp_oublie">
             <img src="/src/images/Group_47.png">
-            <a href="forgotpassword.php">Mot de passe oublié ?</a>
+            <a href="forgotpassword.php" class="white">Mot de passe oublié ?</a>
         </div>
 
         <Hr>
@@ -33,8 +33,14 @@ sql_connect();
         <H3>Vous n'êtes pas encore inscrit ?</H3>
         <div class="inscription">
             <img src="/src/images/Group_47.png">
-            <a href="inscription.php">Inscrivez-vous ici</p>
+            <a href="inscription.php", class="white">Inscrivez-vous ici</p>
         </div>
     </div>
 
     <?php require_once '../../footer.php'; ?>
+
+    <style>
+        .white{
+            color:black
+        }
+    </style>
