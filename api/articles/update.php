@@ -3,20 +3,20 @@ error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-require_once '../../functions/ctrlSaisies.php';
+
 date_default_timezone_set('UTC+1');
-$numArt = ctrlSaisies($_GET['numArt']);
+$numArt = addslashes($_GET['numArt']);
 $dtMajArt = date("Y-m-d H:i:s");
-$libTitrArt = ctrlSaisies($_POST['libTitrArt']);
-$libChapoArt = ctrlSaisies($_POST['libChapoArt']);
-$libAccrochArt = ctrlSaisies($_POST['libAccrochArt']);
-$parag1Art = ctrlSaisies($_POST['parag1Art']);
-$libSsTitr1Art = ctrlSaisies($_POST['libSsTitr1Art']);
-$parag2Art = ctrlSaisies($_POST['parag2Art']);
-$libSsTitr2Art = ctrlSaisies($_POST['libSsTitr2Art']);
-$parag3Art = ctrlSaisies($_POST['parag3Art']);
-$libConclArt = ctrlSaisies($_POST['libConclArt']);
-$numThem = ctrlSaisies($_POST['numThem']);
+$libTitrArt = addslashes($_POST['libTitrArt']);
+$libChapoArt = addslashes($_POST['libChapoArt']);
+$libAccrochArt = addslashes($_POST['libAccrochArt']);
+$parag1Art = addslashes($_POST['parag1Art']);
+$libSsTitr1Art = addslashes($_POST['libSsTitr1Art']);
+$parag2Art = addslashes($_POST['parag2Art']);
+$libSsTitr2Art = addslashes($_POST['libSsTitr2Art']);
+$parag3Art = addslashes($_POST['parag3Art']);
+$libConclArt = addslashes($_POST['libConclArt']);
+$numThem = addslashes($_POST['numThem']);
 
 // Récupérer le nom de l'ancienne image
 $ancienneImage = sql_select("ARTICLE", "urlPhotArt", "numArt = $numArt")[0]['urlPhotArt'];
