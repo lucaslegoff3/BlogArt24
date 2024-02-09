@@ -4,6 +4,7 @@ sql_connect();
 ?>
     <div class="formulaire">
         <div class="connect">
+            <br>
             <H1>Connectez-vous</H1>
         </div>
         <hr>
