@@ -1,9 +1,8 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-require_once '../../functions/ctrlSaisies.php';
 
 if (isset($_POST['number'])) {
-    $numMemb = ctrlSaisies($_POST['number']);
+    $numMemb = addslashes($_POST['number']);
 
     // Vérifier si le membre existe avant de tenter de le supprimer
     $existingMember = sql_select("MEMBRE", "*", "numMemb = $numMemb");

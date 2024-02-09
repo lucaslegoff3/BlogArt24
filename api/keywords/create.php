@@ -1,8 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-require_once '../../functions/ctrlSaisies.php';
 
-$libMotCle = ctrlSaisies($_POST['libMotCle']);
+$libMotCle = addslashes($_POST['libMotCle']);
 
 sql_insert('MOTCLE', 'libMotCle', '"' . $libMotCle . '"');
 

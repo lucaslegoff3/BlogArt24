@@ -1,19 +1,18 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-require_once '../../functions/ctrlSaisies.php';
 
-$prenomMemb = ctrlSaisies($_POST['prenomMemb']);
-$nomMemb = ctrlSaisies($_POST['nomMemb']);
-$pseudoMemb = ctrlSaisies($_POST['pseudoMemb']);
-$passMemb1 = ctrlSaisies($_POST['passMemb1']);
-$passMemb2 = ctrlSaisies($_POST['passMemb2']);
+$prenomMemb = addslashes($_POST['prenomMemb']);
+$nomMemb = addslashes($_POST['nomMemb']);
+$pseudoMemb = addslashes($_POST['pseudoMemb']);
+$passMemb1 = addslashes($_POST['passMemb1']);
+$passMemb2 = addslashes($_POST['passMemb2']);
 // Regex pour valider le mot de passe
 $regex = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,15}$/';
-$email1 = ctrlSaisies($_POST['email1']);
-$email2 = ctrlSaisies($_POST['email2']);
+$email1 = addslashes($_POST['email1']);
+$email2 = addslashes($_POST['email2']);
 $dtCreaMemb = date("Y-m-d H:i:s");
 if (isset ($_POST['verif'])) {
-    $verif =  ctrlSaisies($_POST['verif']);
+    $verif =  addslashes($_POST['verif']);
 }
 
 

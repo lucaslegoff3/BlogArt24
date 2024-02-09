@@ -1,8 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-require_once '../../functions/ctrlSaisies.php';
 
-$numCom = ctrlSaisies($_POST['numCom']);
+$numCom = addslashes($_POST['numCom']);
 
 sql_delete('COMMENT', "numCom = $numCom");
 
