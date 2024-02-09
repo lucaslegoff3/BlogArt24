@@ -2,6 +2,23 @@
 require_once 'config.php';
 ?>
 
+<?php session_start();
+/*include("myBDD.php");*//*
+if (isset($_COOKIE["rappel"]) && !isset($_SESSION['pseudo'])) {
+    $cookie = $_COOKIE["rappel"];
+    $cookie = $bdd->prepare("SELECT * FROM inscription WHERE code_cookie = :code_cookie");
+    $cookie->bindParam(":code_cookie", $cookie);
+    $cookie->execute();
+
+    if ($cookie->rowCount() > 0) {
+        // Connecter automatiquement l'utilisateur avec le cookie
+        $user = $cookie->fetch();
+        $_SESSION['pseudo'] = $user['pseudo'];
+    }
+}*/
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 
@@ -51,8 +68,14 @@ require_once 'config.php';
             <input class="form-control me-2 search_input" type="search" placeholder="Rechercher" aria-label="Search">
           </div>
         </form>
-        <a id="inscription" class="btn btn-secondary m-1" href="/views/frontend/Inscription.php" role="button">Inscription</a>
-        <a id="connexion" class="btn btn-primary m-1" href="/views/frontend/connexion.php" role="button">Connexion</a>
+        <?php
+        if (isset($_SESSION["pseudo"])){
+          echo "<a href='deconnexion.php'>Deconnexion</a>";
+        }else{
+          echo "<a id='inscription' class='btn btn-secondary m-1' href='/views/frontend/Inscription.php' role='button'>Inscription</a>";
+          echo "<a id='connexion' class='btn btn-primary m-1' href='/views/frontend/connexion.php' role='button'>Connexion</a>";
+        }
+        ?>
       </div>
     </div>  </nav>
   <hr>
