@@ -17,7 +17,7 @@ sql_connect();
         <div class="mail">
             <p><H2>E-Mail</H2></p>
             <div class="email">
-                <input type="text" id="name" name="name" required minlength="0" maxlength="" size="40" placeholder="Email"/>
+                <input type="email" id="name" name="name" required minlength="0" maxlength="" size="40" placeholder="Email"/>
             </div>
         </div>   
 
@@ -37,7 +37,7 @@ sql_connect();
         </div>        
 
         <div class="bouton1">
-            <p><a class="bouton" type="button" href="../backend/security/signup.php">S'inscrire</a></p>
+            <p><a class="bouton" type="button" href="#">S'inscrire</a></p>
         </div>  
 
         <p class="encliquant">En cliquant sur « S'inscrire », vous confirmez que vous acceptez les Conditions générales d'utilisation et notre Politique de confidentialité qui vous informe des modalités de traitement de vos données personnelles ainsi que de vos droits sur ces données.
