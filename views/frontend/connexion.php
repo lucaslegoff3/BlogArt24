@@ -10,7 +10,7 @@ sql_connect();
 
         <div class="mail">
             <H2>E-Mail</H2>
-            <input type="text" id="name" name="name" required minlength="0" maxlength="" size="10" placeholder="Nom"/>
+            <input type="email" id="name" name="name" required minlength="0" maxlength="" size="10" placeholder="Nom"/>
         </div>
 
         <div class="mdp">
