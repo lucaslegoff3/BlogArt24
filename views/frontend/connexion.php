@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 
         <div class="mail">
             <H2>E-Mail</H2>
-            <input type="text" id="name" name="eMailMemb" required minlength="0" maxlength="" size="10" placeholder="Nom"/>
+            <input type="email" id="name" name="eMailMemb" required minlength="0" maxlength="" size="10" placeholder="Nom"/>
         </div>
 
         <div class="mdp">
@@ -59,6 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 
         <div class="mdp_oublie">
             <p><a href="/">Mot de passe oublié ?</a></p>
+            <img src="/src/images/Group_47.png">
         </div>
 
         <Hr>
@@ -66,6 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
         <H3>Vous n'êtes pas encore inscrit ?</H3>
         <div class="inscription">
             <p><a href="inscription.php">Inscrivez-vous ici</a></p>
+            <img src="/src/images/Group_47.png">
         </div>
     </form>
 
