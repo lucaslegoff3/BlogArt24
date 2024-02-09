@@ -56,21 +56,29 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
         </div>
 
         <div class="bouton_3">
-            <p><input class="bouton" type="submit" value="Se connecter" /></p>
+            <p><a href="" class="bouton" type="submit">Se connecter</a></p>
         </div>
 
         <div class="mdp_oublie">
             <img src="/src/images/Group_47.png">
-            <a href="forgotpassword.php">Mot de passe oublié ?</a>
+            <a href="forgotpassword.php" class="white">Mot de passe oublié ?</a>
         </div>
 
         <Hr>
 
         <H3>Vous n'êtes pas encore inscrit ?</H3>
         <div class="inscription">
+
             <img src="/src/images/Group_47.png">
-            <p><a href="inscription.php">Inscrivez-vous ici</a></p>
+            <p><a href="inscription.php" class="white">Inscrivez-vous ici</a></p>
         </div>
+        <br>
     </form>
 
     <?php require_once '../../footer.php'; ?>
+
+    <style>
+        .white{
+            color:black
+        }
+    </style>

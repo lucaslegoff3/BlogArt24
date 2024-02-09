@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="insertemail">
-            <input type="text" id="name2" name="name2" required minlength="0" maxlength="" size="40" placeholder="Email"/>
+            <input type="email" id="name2" name="name2" required minlength="0" maxlength="" size="40" placeholder="Email"/>
         </div>
 
         <div class="Message">
