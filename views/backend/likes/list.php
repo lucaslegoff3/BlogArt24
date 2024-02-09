@@ -29,8 +29,8 @@ $Likes = sql_select("likeart
                             <td><?php echo ($Like['libTitrArt']); ?></td>
                             <td><?php echo ($Like['likeA']); ?></td>
                             <td>
-                                <a href="edit.php?numLike=<?php echo ($Like['numLike']); ?>" class="btn btn-primary">Edit</a>
-                                <a href="delete.php?numLike=<?php echo ($Like['numLike']); ?>" class="btn btn-danger">Delete</a>
+                                <a href="edit.php?numArt=<?php echo ($Like['numArt']); ?>" class="btn btn-primary">Edit</a>
+                                <a href="delete.php?numArt=<?php echo ($Like['numArt']); ?>" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>
