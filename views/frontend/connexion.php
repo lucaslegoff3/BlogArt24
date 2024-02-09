@@ -67,10 +67,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 
         <H3>Vous n'êtes pas encore inscrit ?</H3>
         <div class="inscription">
-            <p><a href="inscription.php">Inscrivez-vous ici</a></p>
+
             <img src="/src/images/Group_47.png">
-            <a href="inscription.php">Inscrivez-vous ici</p>
+            <a href="inscription.php" class="white">Inscrivez-vous ici</a>
         </div>
+        <br>
     </form>
 
     <?php require_once '../../footer.php'; ?>
