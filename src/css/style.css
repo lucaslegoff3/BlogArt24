@@ -440,6 +440,7 @@ padding: 1em 5em 6em;
 .nom_prenom{
     columns: 9em;
     height: 3em;
+    display:flexbox;
 }
 
 .nom{
