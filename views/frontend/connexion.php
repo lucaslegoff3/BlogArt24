@@ -39,6 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 ?>
     <form action="connexion.php" class="formulaire" method="post">
         <div class="connect">
+            <br>
             <H1>Connectez-vous</H1>
         </div>
         <hr>
@@ -58,8 +59,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
         </div>
 
         <div class="mdp_oublie">
-            <p><a href="/">Mot de passe oublié ?</a></p>
             <img src="/src/images/Group_47.png">
+            <a href="forgotpassword.php">Mot de passe oublié ?</a>
         </div>
 
         <Hr>
