@@ -23,12 +23,12 @@ sql_connect();
 
         <div class="mdp">
             <p><H2>Mot de passe</H2></p>
-            <input type="text" id="name" name="name" required minlength="6" maxlength="25" size="40" placeholder="Mot de passe (6 caractères minimum)"/>
+            <input type="password" id="name" name="name" required minlength="6" maxlength="25" size="40" placeholder="Mot de passe (6 caractères minimum)"/>
         </div>
 
         <div class="confirmer mdp">
             <p><H2>Confirmer mot de passe</H2></p>
-            <input type="text" id="name" name="name" required minlength="6" maxlength="25" size="40" placeholder="Confirmation"/>
+            <input type="password" id="name" name="name" required minlength="6" maxlength="25" size="40" placeholder="Confirmation"/>
         </div>  
 
         <div class="afficher_mdp">
@@ -37,7 +37,7 @@ sql_connect();
         </div>        
 
         <div class="bouton1">
-            <p><input class="bouton" type="button" value="S'inscrire" /></p>
+            <p><a class="bouton" type="button" href="../backend/security/signup.php">S'inscrire</a></p>
         </div>  
 
         <p class="encliquant">En cliquant sur « S'inscrire », vous confirmez que vous acceptez les Conditions générales d'utilisation et notre Politique de confidentialité qui vous informe des modalités de traitement de vos données personnelles ainsi que de vos droits sur ces données.
