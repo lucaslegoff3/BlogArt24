@@ -513,7 +513,12 @@ padding: 1em 5em 6em;
     width: 276px;
 }
 .blog_sections {
-    
+    left: 161px;
+    line-height: 31.2px;
+    top: 2352px;
+    width: 565px;
+    height: auto;
+    text-align: left;
 }
 
 .blog_sections h2 {
