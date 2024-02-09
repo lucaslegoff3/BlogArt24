@@ -5,10 +5,11 @@ sql_connect();
 if ($_SERVER["REQUEST_METHOD"] === "POST"){
 	$eMailMemb=$_POST["eMailMemb"];
 	$mdp=$_POST["passMemb"];
-	if(!empty($pseudo)){
+	if(!empty($eMailMemb)){
 		$checkeMailMemb = $bdd->prepare("SELECT * FROM MEMBRE WHERE eMailMemb = :eMailMemb");
         $checkeMailMemb->bindParam(":eMailMemb", $eMailMemb);
         $checkeMailMemb->execute();
+        echo "BONJOUR!!";
 		if ($checkeMailMemb->rowCount() > 0) {
             /*
             $mdpsecure = $checkeMailMemb->fetch()["password"];
@@ -26,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 			}*/
             if ($mdpclient==$mdpsecure) {
                 $_SESSION['eMailMemb'] = $eMailMemb;
-                header("Location: accueil.php");
+                header("Location: ../../");
                 exit();
             } else {
                 echo "Mot de passe incorrect.";
@@ -69,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
         <div class="inscription">
 
             <img src="/src/images/Group_47.png">
-            <a href="inscription.php" class="white">Inscrivez-vous ici</a>
+            <p><a href="inscription.php" class="white">Inscrivez-vous ici</a></p>
         </div>
         <br>
     </form>

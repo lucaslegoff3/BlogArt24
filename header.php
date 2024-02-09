@@ -3,6 +3,7 @@ require_once 'config.php';
 ?>
 
 <?php session_start();
+include("myBDD.php");
 /*include("myBDD.php");*//*
 if (isset($_COOKIE["rappel"]) && !isset($_SESSION['pseudo'])) {
     $cookie = $_COOKIE["rappel"];
